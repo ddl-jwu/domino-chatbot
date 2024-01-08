@@ -10,12 +10,9 @@ st.set_page_config(page_title="🤖💬 Pippy - Your Domino Virtual Assistant")
 # App sidebar
 with st.sidebar:
     st.title('🤖💬 Pippy - Your Domino Virtual Assistant')
-    if os.environ["OPENAI_API_KEY"] ==  "":
+    if "OPENAI_API_KEY" not in os.environ:
         os.environ["OPENAI_API_KEY"] = st.text_input('Enter Open AI API Token:', type='password')
-        if not (API_TOKEN):
-            st.warning('Please enter your Open AI API Token', icon='⚠️')
-        else:
-            st.success('Proceed to entering your prompt message!', icon='👉')
+        st.success('Proceed to entering your prompt message!', icon='👉')
     else:
         st.success('Open AI API Token provided!', icon='✅')
 
