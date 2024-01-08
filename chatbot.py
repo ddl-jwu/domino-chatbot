@@ -32,10 +32,9 @@ if prompt := st.chat_input("Say something"):
     with st.chat_message("user"):
         st.write(prompt)
 
-client = OpenAI()
-
 # Query the Open AI Model
 def queryOpenAIModel(prompt_input, past_user_inputs=None, generate_responses=None):
+    client = OpenAI()
     completion = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
