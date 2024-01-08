@@ -16,6 +16,7 @@ with st.sidebar:
         st.success('Proceed to entering your prompt message!', icon='👉')
     else:
         st.success('Open AI API Token provided!', icon='✅')
+    client = OpenAI()
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
@@ -34,7 +35,6 @@ if prompt := st.chat_input("Say something"):
 
 # Query the Open AI Model
 def queryOpenAIModel(prompt_input, past_user_inputs=None, generate_responses=None):
-    client = OpenAI()
     completion = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
