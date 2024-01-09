@@ -6,7 +6,7 @@ import pandas as pd
 from mlflow.deployments import get_deploy_client
 
 # Initialize Mlflow client
-client = get_deploy_client(os.environ["MLFLOW_DEPLOYMENTS_URI"])
+client = get_deploy_client(os.environ["DOMINO_MLFLOW_DEPLOYMENTS"])
 
 # App title
 st.set_page_config(page_title="🤖💬 Pippy - Your Domino Virtual Assistant")
