@@ -4,19 +4,16 @@ import json
 import requests
 import pandas as pd
 from openai import OpenAI
- 
+
+# Initialize Open AI client
+client = OpenAI()
+
 # App title
 st.set_page_config(page_title="🤖💬 Pippy - Your Domino Virtual Assistant")
  
 # App sidebar
 with st.sidebar:
     st.title('🤖💬 Pippy - Your Domino Virtual Assistant')
-    if "OPENAI_API_KEY" not in os.environ:
-        os.environ["OPENAI_API_KEY"] = st.text_input('Enter Open AI API Token:', type='password')
-        st.success('Proceed to entering your prompt message!', icon='👉')
-    else:
-        st.success('Open AI API Token provided!', icon='✅')
-    client = OpenAI()
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
