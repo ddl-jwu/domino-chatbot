@@ -1,11 +1,26 @@
 import streamlit as st
+import random
+
+"""
+TODO: Use Coveo to get top queries submitted by customers and populate `popular_questions` variable with the results
+"""
 
 
 def build_sidebar():
-    POPULAR_QUESTION_1 = "How can Domino help me build generative AI?"
-    POPULAR_QUESTION_2 = "How can I set a default Environment in Domino?"
-    POPULAR_QUESTION_3 = "Generate code for a custom metric to monitor Model toxicity"
-    POPULAR_QUESTION_4 = "What are the new features in Domino 5.10?"
+    popular_questions = [
+        "Conda Virtual Environments in Compute Environments in Domino",
+        "How to get workspace Logs And Support Bundle for 5.1 and Above",
+        "Exotic IDE/VNC or Compute Environment Support - why is it not supported?",
+        "How to set up Domino Model Monitoring (DMM) using the Domino API",
+        "How to capture a HAR file from your Chrome web browser",
+        "How to work with data in Domino",
+        "How to sync files with MPI clusters in Domino",
+        "How to exclude Project files from sync in Domino",
+        "How can Domino help me build generative AI?",
+        "How can I set a default Environment in Domino?",
+        "Generate code for a custom metric to monitor Model toxicity",
+        "What are the new features in Domino 5.10?",
+    ]
 
     def insert_as_users_prompt(**kwargs):
         if prompt := kwargs.get("prompt"):
@@ -21,25 +36,15 @@ def build_sidebar():
     st.title("Hi, I'm Pippy - your personal Domino Data Lab expert")
     st.sidebar.markdown("---")
     st.title("Ask me anything")
-    st.sidebar.button(
-        POPULAR_QUESTION_1,
-        on_click=insert_as_users_prompt,
-        kwargs={"prompt": POPULAR_QUESTION_1},
-    )
-    st.sidebar.button(
-        POPULAR_QUESTION_2,
-        on_click=insert_as_users_prompt,
-        kwargs={"prompt": POPULAR_QUESTION_2},
-    )
-    st.sidebar.button(
-        POPULAR_QUESTION_3,
-        on_click=insert_as_users_prompt,
-        kwargs={"prompt": POPULAR_QUESTION_3},
-    )
-    st.sidebar.button(
-        POPULAR_QUESTION_4,
-        on_click=insert_as_users_prompt,
-        kwargs={"prompt": POPULAR_QUESTION_4},
-    )
+
+    # Pick any 4 questions randomly from popular_questions
+    selected_questions = random.sample(popular_questions, 4)
+
+    for question in selected_questions:
+        st.sidebar.button(
+            question,
+            on_click=insert_as_users_prompt,
+            kwargs={"prompt": question},
+        )
     st.sidebar.markdown("---")
     st.sidebar.button("Clear Chat History", on_click=clear_chat_history, type="primary")
