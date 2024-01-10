@@ -34,7 +34,6 @@ if prompt := st.chat_input("Chat with Pippy"):
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
         st.write(prompt)
-        
 # Get relevant docs through vector DB
 def get_relevant_docs(user_input):
     relevant_docs = "Hi"

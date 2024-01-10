@@ -5,36 +5,33 @@ import json
 import requests
 import pandas as pd
 from mlflow.deployments import get_deploy_client
-from ui.sidebar import build_sidebar
 
 # Initialize Mlflow client
 client = get_deploy_client(os.environ["DOMINO_MLFLOW_DEPLOYMENTS"])
 mlflow.set_experiment("chatbot-app")
 
 # App title
-st.set_page_config(page_title="Domino Pippy ChatAssist", layout="wide")
-
+st.set_page_config(page_title="🤖💬 Pippy - Your Domino Virtual Assistant")
+ 
 # App sidebar
 with st.sidebar:
-    build_sidebar()
+    st.title('🤖💬 Pippy - Your Domino Virtual Assistant')
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
-    st.session_state.messages = [
-        {"role": "assistant", "content": "How can I help you today?"}
-    ]
+    st.session_state.messages = [{"role": "assistant", "content": "How may I help you today?"}]
 
 # And display all stored chat messages
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.write(message["content"])
-
+        
 # Seek new input prompts from user
-if prompt := st.chat_input("Chat with Pippy"):
+if prompt := st.chat_input("Say something"):
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
         st.write(prompt)
-        
+
 # Get relevant docs through vector DB
 def get_relevant_docs(user_input):
     relevant_docs = "Hi"
@@ -73,7 +70,6 @@ def queryOpenAIModel(user_input, past_user_inputs=None, generate_responses=None)
 
     return output
 
-
 # Function for generating LLM response
 def generate_response(prompt):
     response_generated = queryOpenAIModel(prompt)
@@ -84,8 +80,8 @@ def generate_response(prompt):
 if st.session_state.messages[-1]["role"] != "assistant":
     with st.chat_message("assistant"):
         with st.spinner("Thinking..."):
-            response = generate_response(st.session_state.messages[-1]["content"])
-            st.write(response)
-
+            response = generate_response(prompt) 
+            st.write(response) 
+            
     message = {"role": "assistant", "content": response}
     st.session_state.messages.append(message)
