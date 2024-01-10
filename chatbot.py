@@ -32,12 +32,19 @@ if prompt := st.chat_input("Say something"):
     with st.chat_message("user"):
         st.write(prompt)
 
+# Get relevant docs through vector DB
+def get_relevant_docs(user_input):
+    relevant_docs = "Hi"
+    return relevant_docs
+
 # Query the Open AI Model
 def queryOpenAIModel(user_input, past_user_inputs=None, generate_responses=None):
+
+    relevant_docs = get_relevant_docs(user_input)
     
     system_prompt = """ If the user asks a question that is not related to Domino Data Labs, AI, or machine learning, respond with the following keyword: https://www.youtube.com/watch?v=dQw4w9WgXcQ. 
                     Otherwise, you are a virtual assistant for Domino Data Labs and your task is to answer questions related to Domino Data Labs which includes general AI/machine learning concepts.
-                    When answering questions, only refer to the latest version of Domino. Do not use information from older versions of Domino. """ 
+                    When answering questions, only refer to the latest version of Domino. Do not use information from older versions of Domino. Here is some relevant context: {}""".format(relevant_docs)
 
     response = client.predict(
         endpoint="chat",
