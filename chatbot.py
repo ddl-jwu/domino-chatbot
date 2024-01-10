@@ -1,5 +1,6 @@
 import streamlit as st
 import os
+import mlflow 
 import json
 import requests
 import pandas as pd
@@ -8,6 +9,7 @@ from ui.sidebar import build_sidebar
 
 # Initialize Mlflow client
 client = get_deploy_client(os.environ["DOMINO_MLFLOW_DEPLOYMENTS"])
+mlflow.set_experiment("chatbot-app")
 
 # App title
 st.set_page_config(page_title="Domino Pippy ChatAssist", layout="wide")
@@ -35,20 +37,35 @@ if prompt := st.chat_input("Chat with Pippy"):
 
 
 # Query the Open AI Model
-def queryOpenAIModel(prompt_input, past_user_inputs=None, generate_responses=None):
+def queryOpenAIModel(user_input, past_user_inputs=None, generate_responses=None):
+    
+    system_prompt = """ If the user asks a question that is not related to Domino Data Labs, AI, or machine learning, respond with the following keyword: https://www.youtube.com/watch?v=dQw4w9WgXcQ. 
+                    Otherwise, you are a virtual assistant for Domino Data Labs and your task is to answer questions related to Domino Data Labs which includes general AI/machine learning concepts.
+                    When answering questions, only refer to the latest version of Domino. Do not use information from older versions of Domino. """ 
+
     response = client.predict(
         endpoint="chat",
-        inputs={
-            "messages": [
-                {
-                    "role": "system",
-                    "content": "If the user asks a question that is not related to Domino Data Lab, respond with the following keyword: https://www.youtube.com/watch?v=dQw4w9WgXcQ. Otherwise, you are a virtual assistant for Domino Data Lab and your task is to answer questions related to Domino Data Lab.",
-                },
-                {"role": "user", "content": prompt_input},
-            ]
+        inputs={ "messages": [
+                    { 
+                        "role": "system", 
+                        "content": system_prompt
+                    },
+                    { 
+                        "role": "user", 
+                        "content": user_input
+                    } 
+                ]
         },
     )
-    return response["choices"][0]["message"]["content"]
+    output = response["choices"][0]["message"]["content"]
+
+    # Log results to MLflow
+    with mlflow.start_run():
+        mlflow.log_param("system_prompt", system_prompt)
+        mlflow.log_param("user_input", user_input)
+        mlflow.log_param("output", output)
+
+    return output
 
 
 # Function for generating LLM response
