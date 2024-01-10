@@ -35,8 +35,16 @@ def queryOpenAIModel(prompt_input, past_user_inputs=None, generate_responses=Non
     response = client.predict(
         endpoint="chat",
         inputs={ "messages": [
-                    { "role": "system", "content": "If the user asks a question that is not related to Domino Data Labs, respond with the following keyword: https://www.youtube.com/watch?v=dQw4w9WgXcQ. Otherwise, you are a virtual assistant for Domino Data Labs and your task is to answer questions related to Domino Data Labs." },
-                    { "role": "user", "content": prompt_input } 
+                    { 
+                        "role": "system", 
+                        "content": """ If the user asks a question that is not related to Domino Data Labs, AI, or machine learning, respond with the following keyword: https://www.youtube.com/watch?v=dQw4w9WgXcQ. 
+                                    Otherwise, you are a virtual assistant for Domino Data Labs and your task is to answer questions related to Domino Data Labs which includes general AI/machine learning concepts.
+                                    When answering questions, only refer to the latest version of Domino. Do not use information from older versions of Domino. """ 
+                    },
+                    { 
+                        "role": "user", 
+                        "content": prompt_input
+                    } 
                 ]
         },
     )
