@@ -5,6 +5,7 @@ import json
 import requests
 import pandas as pd
 import pinecone
+import subprocess
 from mlflow.deployments import get_deploy_client
 from ui.sidebar import build_sidebar
 from langchain_community.embeddings import MlflowEmbeddings
@@ -170,7 +171,11 @@ def queryOpenAIModel(user_input):
 
     # Log results to MLflow
     with mlflow.start_run():
-        mlflow.log_param("system_prompt", system_prompt)
+        mlflow.log_param("commit", subprocess.check_output(['git', 'log', '-1']).decode('ascii').strip())
+        mlflow.log_param("version", domino_docs_version)
+        mlflow.log_param("category", doc_category)
+        mlflow.log_param("conversation_summary", st.session_state.conversation.memory.load_memory_variables({}))
+        mlflow.log_param("full_system_prompt", system_prompt)
         mlflow.log_param("user_input", user_input)
         mlflow.log_param("output", output)
 
