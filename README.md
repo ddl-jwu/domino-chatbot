@@ -11,9 +11,13 @@ RUN pip install --user dominodatalab-data==5.10.0.dev2
 RUN pip install --user pinecone-client==2.2.4
 ```
 
-# Local Testing
+# Set-up
 
 Create a project and mount this git repository instead of using the default Domino File System.
+
+Additionally, add and authenticate Pinecone as a Data Source to your project.
+
+# Local Testing
 
 To test in workspace:
 

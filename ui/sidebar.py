@@ -40,8 +40,17 @@ def build_sidebar():
     st.sidebar.markdown("---")
 
     domino_docs_version = st.selectbox(
-        "Domino docs version",
-        ("Latest (5.9)", "5.8", "5.7", "5.6", "5.5", "5.4", "5.3", "5.2", "5.1", "5.0"),
+        "Domino Docs Version",
+        (
+            "Latest (5.9)", "5.8", "5.7", "5.6", "5.5", "5.4", "5.3", "5.2", "5.1", "5.0",
+            "4.6", "4.5", "4.4", "4.3", "4.2", "4.1", 
+            "3.6"
+        ),
+    )
+
+    doc_category = st.selectbox(
+        "Doc Category",
+        ("All", "User Guide", "Admin Guide", "API Guide", "Release Notes"),
     )
     st.sidebar.markdown("---")
 
@@ -63,4 +72,4 @@ def build_sidebar():
     st.sidebar.markdown("---")
     st.sidebar.button("Clear Chat History", on_click=clear_chat_history, type="primary")
 
-    return domino_docs_version
+    return domino_docs_version, doc_category
