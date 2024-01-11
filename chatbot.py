@@ -65,39 +65,23 @@ if prompt := st.chat_input("Chat with Pippy"):
         st.write(prompt)
 
 # Get optional query filter based on user input
-def get_query_filter(user_input, domino_docs_version):
+def get_query_filter(user_input):    
     filter = dict()
-    user_input_list = user_input.split()
-    for i in range(len(user_input_list)):
-        curr_word = user_input_list[i]
-        # Find delimiter if it exists
-        if curr_word.startswith('~'):
-            curr_word = curr_word[1:]
-
-            # In form "~key=value"
-            assignment_idx = curr_word.find("=")
-            if assignment_idx != -1 and assignment_idx + 1 < len(curr_word):
-                metadata_key = curr_word[:assignment_idx]
-                metadata_val = curr_word[assignment_idx + 1:]
-                filter[metadata_key] = {"$eq": metadata_val}
-
-            # Remove metadata filter command
-            user_input_list[i] = ""
-    
-    # Rejoin with filter removed
-    user_input = (" ").join(user_input_list)
-    
     # Use version from user selection
     if "latest" in domino_docs_version.lower():
         filter["version"] = {"$eq": "latest"}
     else:
         filter["version"] = {"$eq": domino_docs_version}
 
+    # Use category from user selection
+    if not "all" in doc_category.lower():
+        filter["category"] = {"$eq": doc_category}
+
     return filter
 
 # Get relevant docs through vector DB
-def get_relevant_docs(user_input, domino_docs_version):
-    filter = get_query_filter(user_input, domino_docs_version)
+def get_relevant_docs(user_input):
+    filter = get_query_filter(user_input)
     embedded_query = embeddings.embed_query(user_input)
     
     return index.query(
@@ -111,7 +95,7 @@ def get_relevant_docs(user_input, domino_docs_version):
 
 # Query the Open AI Model
 def queryOpenAIModel(user_input, past_user_inputs=None, generate_responses=None):
-    relevant_docs = get_relevant_docs(user_input, domino_docs_version)
+    relevant_docs = get_relevant_docs(user_input)
     actual_num_matches = len(relevant_docs["matches"])
     # Get relevant URLs, filtering out repeated
     url_links = set([relevant_docs["matches"][i]["metadata"]["url"] for i in range(actual_num_matches)])
@@ -119,12 +103,13 @@ def queryOpenAIModel(user_input, past_user_inputs=None, generate_responses=None)
     
     system_prompt = """ If the user asks a question that is not related to Domino Data Lab, AI, or machine learning, respond with the following keyword: https://www.youtube.com/watch?v=dQw4w9WgXcQ. 
                     Otherwise, you are a virtual assistant for Domino Data Lab and your task is to answer questions related to Domino Data Lab which includes general AI/machine learning concepts.
-                    When answering questions, only refer to the {0} version of Domino. Do not use information from other versions of Domino. If you don't find an answer to the question the user asked in the {0} version of Domino, tell them that you looked into the {0} version of Domino but the feature or capability that they're looking for likely does not exist in that version. Do not hallucinate. If you don't find an answer, you can point user to the official version of the Domino Data Lab docs here: https://docs.dominodatalab.com/.
-                    In your response, include a list of the references (with URL links) where you obtained the information from.
-                    In your response, include the following url links at the end of your response {}.
+                    When answering questions, only refer to the {0} version of Domino. Do not use information from other versions of Domino. If you don't find an answer to the question the user asked in the {0} version of Domino, 
+                    tell them that you looked into the {0} version of Domino but the feature or capability that they're looking for likely does not exist in that version. 
+                    Do not hallucinate. If you don't find an answer, you can point user to the official version of the Domino Data Lab docs here: https://docs.dominodatalab.com/.
+                    In your response, include the following url links at the end of your response {1}.
                     Also, at the end of your response, ask if your response was helpful and to please file a ticket with our support team at this link if further help is needed: 
                     https://tickets.dominodatalab.com/hc/en-us/requests/new#numberOfResults=5, embedded into the words "Support Ticket".
-                    Here is some relevant context: {}""".format(domino_docs_version, ", ".join(url_links), ". ".join(context))
+                    Here is some relevant context: {2}""".format(domino_docs_version, ", ".join(url_links), ". ".join(context))
                     
     response = client.predict(
         endpoint="chat",
