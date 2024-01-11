@@ -10,6 +10,9 @@ from ui.sidebar import build_sidebar
 from langchain_community.embeddings import MlflowEmbeddings
 from domino_data.vectordb import DominoPineconeConfiguration
 
+# Number of texts to match (may be less if no suitable match)
+NUM_TEXT_MATCHES = 3
+
 # Initialize Mlflow client
 client = get_deploy_client(os.environ["DOMINO_MLFLOW_DEPLOYMENTS"])
 mlflow.set_experiment("chatbot-app")
@@ -65,22 +68,23 @@ def get_relevant_docs(user_input):
     embedded_query = embeddings.embed_query(user_input)
     return index.query(
         vector=embedded_query,
-        top_k=3,
-        include_values=True
+        top_k=NUM_TEXT_MATCHES,
+        include_values=True,
+        include_metadata=True
     )
 
 # Query the Open AI Model
 def queryOpenAIModel(user_input, past_user_inputs=None, generate_responses=None):
-
-    #relevant_docs = get_relevant_docs(user_input)
-    #print(relevant_docs)
-    relevant_docs = ""
+    relevant_docs = get_relevant_docs(user_input)
+    # Get relevant URLs, filtering out repeated
+    url_links = set([relevant_docs["matches"][i]["metadata"]["url"] for i in range(NUM_TEXT_MATCHES)])
+    context = [relevant_docs["matches"][i]["metadata"]["text"] for i in range(NUM_TEXT_MATCHES)]
     
     system_prompt = """ If the user asks a question that is not related to Domino Data Lab, AI, or machine learning, respond with the following keyword: https://www.youtube.com/watch?v=dQw4w9WgXcQ. 
                     Otherwise, you are a virtual assistant for Domino Data Lab and your task is to answer questions related to Domino Data Lab which includes general AI/machine learning concepts.
                     When answering questions, only refer to the latest version of Domino. Do not use information from older versions of Domino. 
-                    In your response, include a list of the references (with URL links) where you obtained the information from.
-                    Here is some relevant context: {}""".format(relevant_docs)
+                    In your response, include the following url links at the end of your response {}.
+                    Here is some relevant context: {}""".format(", ".join(url_links), ". ".join(context))
 
     response = client.predict(
         endpoint="chat",
