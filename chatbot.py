@@ -9,6 +9,11 @@ from mlflow.deployments import get_deploy_client
 from ui.sidebar import build_sidebar
 from langchain_community.embeddings import MlflowEmbeddings
 from domino_data.vectordb import DominoPineconeConfiguration
+from langchain.chains import ConversationChain
+from langchain_community.chat_models import ChatMlflow
+from langchain.schema import HumanMessage, SystemMessage
+from langchain import PromptTemplate
+from langchain.memory import ConversationSummaryMemory
 
 # Number of texts to match (may be less if no suitable match)
 NUM_TEXT_MATCHES = 3
@@ -34,8 +39,7 @@ RELEASES_MAPPING = {
     "3.6": ["3.6", "3-6"]
 }
 
-# Initialize Mlflow client
-client = get_deploy_client(os.environ["DOMINO_MLFLOW_DEPLOYMENTS"])
+# Set MLflow experiment to use for logging
 mlflow.set_experiment("chatbot-app")
 
 # Initialize Pinecone index
@@ -74,6 +78,18 @@ if "messages" not in st.session_state.keys():
         {"role": "assistant", "content": "How can I help you today?"}
     ]
 
+# Initialize or re-nitialize conversation chain
+if "conversation" not in st.session_state.keys() or len(st.session_state.messages) <= 1:
+    chat = ChatMlflow(
+        target_uri=os.environ["DOMINO_MLFLOW_DEPLOYMENTS"],
+        endpoint="chat",
+    )
+    st.session_state.conversation = ConversationChain(
+        llm=chat,
+        memory=ConversationSummaryMemory(llm=chat),
+        verbose=True
+    )
+
 # And display all stored chat messages
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
@@ -110,35 +126,47 @@ def get_relevant_docs(user_input):
         filter=filter
     )
 
+def build_system_prompt(user_input):
 
-# Query the Open AI Model
-def queryOpenAIModel(user_input, past_user_inputs=None, generate_responses=None):
+    # Retrieve context
     relevant_docs = get_relevant_docs(user_input)
     actual_num_matches = len(relevant_docs["matches"])
-    # Get relevant URLs, filtering out repeated
     url_links = set([relevant_docs["matches"][i]["metadata"]["url"] for i in range(actual_num_matches)])
     context = [relevant_docs["matches"][i]["metadata"]["text"] for i in range(actual_num_matches)]
-    
-    system_prompt = """ If the user asks a question that is not related to Domino Data Lab, AI, or machine learning, respond with the following keyword: https://www.youtube.com/watch?v=dQw4w9WgXcQ. 
+
+    # Create prompt
+    template = """ If the user asks a question that is not related to Domino Data Lab, AI, or machine learning, respond with the following keyword: https://www.youtube.com/watch?v=dQw4w9WgXcQ. 
                     Otherwise, you are a virtual assistant for Domino Data Lab and your task is to answer questions related to Domino Data Lab which includes general AI/machine learning concepts.
-                    When answering questions, only refer to the {0} version of Domino. Do not use information from other versions of Domino. If you don't find an answer to the question the user asked in the {0} version of Domino, 
-                    tell them that you looked into the {0} version of Domino but the feature or capability that they're looking for likely does not exist in that version. 
+                    When answering questions, only refer to the {domino_docs_version} version of Domino. Do not use information from other versions of Domino.
+                    If you don't find an answer to the question the user asked in the {domino_docs_version} version of Domino, 
+                    tell them that you looked into the {domino_docs_version} version of Domino but the feature or capability that they're looking for likely does not exist in that version. 
                     Do not hallucinate. If you don't find an answer, you can point user to the official version of the Domino Data Lab docs here: https://docs.dominodatalab.com/.
-                    In your response, include the following url links at the end of your response {1}.
+                    In your response, include the following url links at the end of your response {url_links}.
                     Also, at the end of your response, ask if your response was helpful and to please file a ticket with our support team at this link if further help is needed: 
                     https://tickets.dominodatalab.com/hc/en-us/requests/new#numberOfResults=5, embedded into the words "Support Ticket".
-                    Here is some relevant context: {2}""".format(domino_docs_version, ", ".join(url_links), ". ".join(context))
-                    
-    response = client.predict(
-        endpoint="chat",
-        inputs={
-            "messages": [
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_input},
-            ]
-        },
+                    Here is some relevant context: {context}"""
+
+    prompt_template = PromptTemplate(
+        input_variables=["domino_docs_version", "url_links", "context"],
+        template=template
     )
-    output = response["choices"][0]["message"]["content"]
+    system_prompt = prompt_template.format(domino_docs_version=domino_docs_version, url_links=url_links, context=context)
+    
+    return system_prompt
+
+# Query the Open AI Model
+def queryOpenAIModel(user_input):
+
+    system_prompt = build_system_prompt(user_input)            
+    messages = [
+        SystemMessage(
+            content=system_prompt
+        ),
+        HumanMessage(
+            content=user_input
+        ),
+    ]
+    output = st.session_state.conversation.predict(input=messages)
 
     # Log results to MLflow
     with mlflow.start_run():
