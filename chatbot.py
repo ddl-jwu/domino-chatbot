@@ -4,12 +4,37 @@ import mlflow
 import json
 import requests
 import pandas as pd
+import pinecone
 from mlflow.deployments import get_deploy_client
 from ui.sidebar import build_sidebar
+from langchain_community.embeddings import MlflowEmbeddings
+from domino_data.vectordb import DominoPineconeConfiguration
 
 # Initialize Mlflow client
 client = get_deploy_client(os.environ["DOMINO_MLFLOW_DEPLOYMENTS"])
 mlflow.set_experiment("chatbot-app")
+
+# Initialize Pinecone index
+datasource_name = "PineconeHackathon"
+conf = DominoPineconeConfiguration(datasource=datasource_name)
+api_key = os.environ.get("DOMINO_VECTOR_DB_METADATA", datasource_name)
+
+pinecone.init(
+    api_key=api_key,
+    environment="domino",
+    openapi_config=conf
+)
+
+# Choose appropriate index from Pinecone
+# index_name = "hacktestlatestall"
+index_name = "hacktest"
+index = pinecone.Index(index_name)
+
+# Create embeddings to embed queries
+embeddings = MlflowEmbeddings(
+    target_uri=os.environ["DOMINO_MLFLOW_DEPLOYMENTS"],
+    endpoint="embeddings",
+)
 
 # App title
 st.set_page_config(page_title="Domino Pippy ChatAssist", layout="wide")
@@ -37,16 +62,22 @@ if prompt := st.chat_input("Chat with Pippy"):
 
 # Get relevant docs through vector DB
 def get_relevant_docs(user_input):
-    relevant_docs = "Hi"
-    return relevant_docs
+    embedded_query = embeddings.embed_query(user_input)
+    return index.query(
+        vector=embedded_query,
+        top_k=3,
+        include_values=True
+    )
 
 # Query the Open AI Model
 def queryOpenAIModel(user_input, past_user_inputs=None, generate_responses=None):
 
-    relevant_docs = get_relevant_docs(user_input)
+    #relevant_docs = get_relevant_docs(user_input)
+    #print(relevant_docs)
+    relevant_docs = ""
     
-    system_prompt = """ If the user asks a question that is not related to Domino Data Labs, AI, or machine learning, respond with the following keyword: https://www.youtube.com/watch?v=dQw4w9WgXcQ. 
-                    Otherwise, you are a virtual assistant for Domino Data Labs and your task is to answer questions related to Domino Data Labs which includes general AI/machine learning concepts.
+    system_prompt = """ If the user asks a question that is not related to Domino Data Lab, AI, or machine learning, respond with the following keyword: https://www.youtube.com/watch?v=dQw4w9WgXcQ. 
+                    Otherwise, you are a virtual assistant for Domino Data Lab and your task is to answer questions related to Domino Data Lab which includes general AI/machine learning concepts.
                     When answering questions, only refer to the latest version of Domino. Do not use information from older versions of Domino. 
                     In your response, include a list of the references (with URL links) where you obtained the information from.
                     Here is some relevant context: {}""".format(relevant_docs)
