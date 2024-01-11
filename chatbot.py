@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-import mlflow 
+import mlflow
 import json
 import requests
 import pandas as pd
@@ -45,7 +45,7 @@ st.set_page_config(page_title="Domino Pippy ChatAssist", layout="wide")
 
 # App sidebar
 with st.sidebar:
-    build_sidebar()
+    domino_docs_version = build_sidebar()
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
@@ -65,7 +65,7 @@ if prompt := st.chat_input("Chat with Pippy"):
         st.write(prompt)
 
 # Get optional query filter based on user input
-def get_query_filter(user_input):
+def get_query_filter(user_input, domino_docs_version):
     filter = dict()
     user_input_list = user_input.split()
     for i in range(len(user_input_list)):
@@ -87,14 +87,17 @@ def get_query_filter(user_input):
     # Rejoin with filter removed
     user_input = (" ").join(user_input_list)
     
-    # Use version latest as default if user doesn't provide
-    if "version" not in filter:
+    # Use version from user selection
+    if "latest" in domino_docs_version.lower():
         filter["version"] = {"$eq": "latest"}
+    else:
+        filter["version"] = {"$eq": domino_docs_version}
+
     return filter
 
 # Get relevant docs through vector DB
-def get_relevant_docs(user_input):
-    filter = get_query_filter(user_input)
+def get_relevant_docs(user_input, domino_docs_version):
+    filter = get_query_filter(user_input, domino_docs_version)
     embedded_query = embeddings.embed_query(user_input)
     
     return index.query(
@@ -105,9 +108,10 @@ def get_relevant_docs(user_input):
         filter=filter
     )
 
+
 # Query the Open AI Model
 def queryOpenAIModel(user_input, past_user_inputs=None, generate_responses=None):
-    relevant_docs = get_relevant_docs(user_input)
+    relevant_docs = get_relevant_docs(user_input, domino_docs_version)
     actual_num_matches = len(relevant_docs["matches"])
     # Get relevant URLs, filtering out repeated
     url_links = set([relevant_docs["matches"][i]["metadata"]["url"] for i in range(actual_num_matches)])
@@ -115,24 +119,19 @@ def queryOpenAIModel(user_input, past_user_inputs=None, generate_responses=None)
     
     system_prompt = """ If the user asks a question that is not related to Domino Data Lab, AI, or machine learning, respond with the following keyword: https://www.youtube.com/watch?v=dQw4w9WgXcQ. 
                     Otherwise, you are a virtual assistant for Domino Data Lab and your task is to answer questions related to Domino Data Lab which includes general AI/machine learning concepts.
-                    When answering questions, only refer to the {} version of Domino. Do not use information from older versions of Domino.
+                    When answering questions, only refer to the {} version of Domino. Do not use information from other versions of Domino.
                     In your response, include the following url links at the end of your response {}.
                     Also, at the end of your response, ask if your response was helpful and to please file a ticket with our support team at this link if further help is needed: 
                     https://tickets.dominodatalab.com/hc/en-us/requests/new#numberOfResults=5, embedded into the words "Support Ticket".
-                    Here is some relevant context: {}""".format("", ", ".join(url_links), ". ".join(context))
-
+                    Here is some relevant context: {}""".format(domino_docs_version, ", ".join(url_links), ". ".join(context))
+                    
     response = client.predict(
         endpoint="chat",
-        inputs={ "messages": [
-                    { 
-                        "role": "system", 
-                        "content": system_prompt
-                    },
-                    { 
-                        "role": "user", 
-                        "content": user_input
-                    } 
-                ]
+        inputs={
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_input},
+            ]
         },
     )
     output = response["choices"][0]["message"]["content"]
