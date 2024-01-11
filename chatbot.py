@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-import mlflow 
+import mlflow
 import json
 import requests
 import pandas as pd
@@ -16,7 +16,7 @@ st.set_page_config(page_title="Domino Pippy ChatAssist", layout="wide")
 
 # App sidebar
 with st.sidebar:
-    build_sidebar()
+    domino_docs_version = build_sidebar()
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
@@ -35,34 +35,32 @@ if prompt := st.chat_input("Chat with Pippy"):
     with st.chat_message("user"):
         st.write(prompt)
 
+
 # Get relevant docs through vector DB
 def get_relevant_docs(user_input):
     relevant_docs = "Hi"
     return relevant_docs
 
+
 # Query the Open AI Model
 def queryOpenAIModel(user_input, past_user_inputs=None, generate_responses=None):
-
     relevant_docs = get_relevant_docs(user_input)
-    
+
     system_prompt = """ If the user asks a question that is not related to Domino Data Labs, AI, or machine learning, respond with the following keyword: https://www.youtube.com/watch?v=dQw4w9WgXcQ. 
                     Otherwise, you are a virtual assistant for Domino Data Labs and your task is to answer questions related to Domino Data Labs which includes general AI/machine learning concepts.
-                    When answering questions, only refer to the latest version of Domino. Do not use information from older versions of Domino. 
+                    When answering questions, only refer to the {} version of Domino. Do not use information from older versions of Domino.
                     In your response, include a list of the references (with URL links) where you obtained the information from.
-                    Here is some relevant context: {}""".format(relevant_docs)
+                    Here is some relevant context: {}""".format(
+        domino_docs_version, relevant_docs
+    )
 
     response = client.predict(
         endpoint="chat",
-        inputs={ "messages": [
-                    { 
-                        "role": "system", 
-                        "content": system_prompt
-                    },
-                    { 
-                        "role": "user", 
-                        "content": user_input
-                    } 
-                ]
+        inputs={
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_input},
+            ]
         },
     )
     output = response["choices"][0]["message"]["content"]
