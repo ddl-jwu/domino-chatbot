@@ -18,6 +18,10 @@ from langchain.memory import ConversationSummaryMemory
 # Number of texts to match (may be less if no suitable match)
 NUM_TEXT_MATCHES = 3
 
+# Similarity threshold such that queried text with a lower will be discarded. 
+# Range [0, 1], larger = more similar for cosine similarity
+SIMILARITY_THRESHOLD = 0.83
+
 # Mapping of release to versions to filter (patch releases and different formatting)
 RELEASES_MAPPING = {
     "Latest (5.9)": ["latest", "5.9", "5-9-0"],
@@ -118,13 +122,20 @@ def get_relevant_docs(user_input):
     filter = get_query_filter(user_input)
     embedded_query = embeddings.embed_query(user_input)
     
-    return index.query(
+    relevant_docs = index.query(
         vector=embedded_query,
         top_k=NUM_TEXT_MATCHES,
         include_values=True,
         include_metadata=True,
         filter=filter
     )
+
+    matches = relevant_docs["matches"]
+    filtered_matches = [match for match in matches if match['score'] >= SIMILARITY_THRESHOLD]
+    relevant_docs["matches"] = filtered_matches
+
+    return relevant_docs
+
 
 def build_system_prompt(user_input):
 
