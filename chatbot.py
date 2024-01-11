@@ -12,18 +12,17 @@ from langchain.schema import HumanMessage, SystemMessage
 from langchain import PromptTemplate
 from langchain.memory import ConversationSummaryMemory
 
-# Initialize Mlflow client 
-chat = ChatMlflow(
-    target_uri=os.environ["DOMINO_MLFLOW_DEPLOYMENTS"],
-    endpoint="chat",
-)
-
 # Initialize conversation chain
-conversation = ConversationChain(
-    llm=chat,
-    memory=ConversationSummaryMemory(llm=chat),
-    verbose=True
-)
+if "conversation" not in st.session_state.keys():
+    chat = ChatMlflow(
+        target_uri=os.environ["DOMINO_MLFLOW_DEPLOYMENTS"],
+        endpoint="chat",
+    )
+    st.session_state.conversation = ConversationChain(
+        llm=chat,
+        memory=ConversationSummaryMemory(llm=chat),
+        verbose=True
+    )
 
 # Set MLflow experiment to use for logging
 mlflow.set_experiment("chatbot-app")
@@ -83,7 +82,7 @@ def queryOpenAIModel(user_input, past_user_inputs=None, generate_responses=None)
         ),
     ]
 
-    output = conversation.predict(input=messages)
+    output = st.session_state.conversation.predict(input=messages)
 
     # Log results to MLflow
     with mlflow.start_run():
