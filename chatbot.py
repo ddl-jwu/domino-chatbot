@@ -116,8 +116,9 @@ def queryOpenAIModel(user_input, past_user_inputs=None, generate_responses=None)
     system_prompt = """ If the user asks a question that is not related to Domino Data Lab, AI, or machine learning, respond with the following keyword: https://www.youtube.com/watch?v=dQw4w9WgXcQ. 
                     Otherwise, you are a virtual assistant for Domino Data Lab and your task is to answer questions related to Domino Data Lab which includes general AI/machine learning concepts.
                     When answering questions, only refer to the {} version of Domino. Do not use information from older versions of Domino.
-                    When answering questions, only refer to the latest version of Domino. Do not use information from older versions of Domino. 
                     In your response, include the following url links at the end of your response {}.
+                    Also, at the end of your response, ask if your response was helpful and to please file a ticket with our support team at this link if further help is needed: 
+                    https://tickets.dominodatalab.com/hc/en-us/requests/new#numberOfResults=5, embedded into the words "Support Ticket".
                     Here is some relevant context: {}""".format("", ", ".join(url_links), ". ".join(context))
 
     response = client.predict(
