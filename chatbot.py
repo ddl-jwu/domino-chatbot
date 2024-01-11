@@ -5,6 +5,7 @@ import json
 import requests
 import pandas as pd
 import pinecone
+import subprocess
 from mlflow.deployments import get_deploy_client
 from ui.sidebar import build_sidebar
 from langchain_community.embeddings import MlflowEmbeddings
@@ -147,14 +148,21 @@ def build_system_prompt(user_input):
 
     # Create prompt
     template = """ If the user asks a question that is not related to Domino Data Lab, AI, or machine learning, respond with the following keyword: https://www.youtube.com/watch?v=dQw4w9WgXcQ. 
-                    Otherwise, you are a virtual assistant for Domino Data Lab and your task is to answer questions related to Domino Data Lab which includes general AI/machine learning concepts.
+    
+                    Otherwise, you are a virtual assistant for Domino Data Lab and your task is to answer questions related to Domino Data Lab which includes general AI/machine learning concepts. 
+                    
                     When answering questions, only refer to the {domino_docs_version} version of Domino. Do not use information from other versions of Domino.
+                    
                     If you don't find an answer to the question the user asked in the {domino_docs_version} version of Domino, 
                     tell them that you looked into the {domino_docs_version} version of Domino but the feature or capability that they're looking for likely does not exist in that version. 
-                    Do not hallucinate. If you don't find an answer, you can point user to the official version of the Domino Data Lab docs here: https://docs.dominodatalab.com/.
+                    
+                    Do not hallucinate. If you don't find an answer, you can point user to the official version of the Domino Data Lab docs here: https://docs.dominodatalab.com/. 
+                    
                     In your response, include the following url links at the end of your response {url_links} and any other relevant URL links that you refered.
+                    
                     Also, at the end of your response, ask if your response was helpful and to please file a ticket with our support team at this link if further help is needed: 
-                    https://tickets.dominodatalab.com/hc/en-us/requests/new#numberOfResults=5, embedded into the words "Support Ticket".
+                    https://tickets.dominodatalab.com/hc/en-us/requests/new#numberOfResults=5, embedded into the words "Support Ticket". 
+                    
                     Here is some relevant context: {context}"""
 
     prompt_template = PromptTemplate(
@@ -181,7 +189,11 @@ def queryOpenAIModel(user_input):
 
     # Log results to MLflow
     with mlflow.start_run():
-        mlflow.log_param("system_prompt", system_prompt)
+        mlflow.log_param("commit", subprocess.check_output(['git', 'log', '-1']).decode('ascii').strip())
+        mlflow.log_param("version", domino_docs_version)
+        mlflow.log_param("category", doc_category)
+        mlflow.log_param("conversation_summary", st.session_state.conversation.memory.load_memory_variables({}))
+        mlflow.log_param("full_system_prompt", system_prompt)
         mlflow.log_param("user_input", user_input)
         mlflow.log_param("output", output)
 
