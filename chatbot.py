@@ -19,7 +19,7 @@ from langchain.memory import ConversationSummaryMemory
 # Number of texts to match (may be less if no suitable match)
 NUM_TEXT_MATCHES = 3
 
-# Similarity threshold such that queried text with a lower will be discarded. 
+# Similarity threshold such that queried text with a lower will be discarded 
 # Range [0, 1], larger = more similar for cosine similarity
 SIMILARITY_THRESHOLD = 0.83
 
