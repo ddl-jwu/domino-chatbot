@@ -16,7 +16,7 @@ st.set_page_config(page_title="Domino Pippy ChatAssist", layout="wide")
 
 # App sidebar
 with st.sidebar:
-    domino_docs_version = build_sidebar()
+    domino_docs_version, doc_category = build_sidebar()
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
@@ -48,9 +48,11 @@ def queryOpenAIModel(user_input, past_user_inputs=None, generate_responses=None)
 
     system_prompt = """ If the user asks a question that is not related to Domino Data Labs, AI, or machine learning, respond with the following keyword: https://www.youtube.com/watch?v=dQw4w9WgXcQ. 
                     Otherwise, you are a virtual assistant for Domino Data Labs and your task is to answer questions related to Domino Data Labs which includes general AI/machine learning concepts.
-                    When answering questions, only refer to the {} version of Domino. Do not use information from older versions of Domino.
+                    When answering questions, only refer to the {0} version of Domino. Do not use information from older versions of Domino. If you don't find an answer to the question the user asked in the {0} version of Domino, say that you looked into the {0} version of Domino but the feature or capability likely does not exist in that version. Do not hallucinate. If you don't find an answer, you can point user to the official version of the Domino Data Lab docs here: https://docs.dominodatalab.com/.
                     In your response, include a list of the references (with URL links) where you obtained the information from.
-                    Here is some relevant context: {}""".format(
+                    Here is some relevant context: {1}
+                    At the end of your response, always ask user if they have any further questions. If they do, share this link, https://tickets.dominodatalab.com/hc/en-us/requests/new#numberOfResults=5, with them and provide them with the option to connect with Domino Support.
+                    """.format(
         domino_docs_version, relevant_docs
     )
 
