@@ -33,9 +33,22 @@ def build_sidebar():
 
     # App sidebar
     st.image("/mnt/code/assets/pippy.png", width=50)
-    st.title("Hi, I'm Pippy - your personal Domino Data Lab expert")
+    st.write(
+        "<h1>Hi, I'm <font color='#ffcdc2'>Pippy</font> - your personal Domino Data Lab expert</h1>",
+        unsafe_allow_html=True,
+    )
     st.sidebar.markdown("---")
-    st.title("Ask me anything")
+
+    domino_docs_version = st.selectbox(
+        "Domino docs version",
+        ("Latest (5.9)", "5.8", "5.7", "5.6", "5.5", "5.4", "5.3", "5.2", "5.1", "5.0"),
+    )
+    st.sidebar.markdown("---")
+
+    st.write(
+        "<h2>Ask me anything</h2>",
+        unsafe_allow_html=True,
+    )
 
     # Pick any 4 questions randomly from popular_questions
     selected_questions = random.sample(popular_questions, 4)
@@ -45,6 +58,9 @@ def build_sidebar():
             question,
             on_click=insert_as_users_prompt,
             kwargs={"prompt": question},
+            use_container_width=True,
         )
     st.sidebar.markdown("---")
     st.sidebar.button("Clear Chat History", on_click=clear_chat_history, type="primary")
+
+    return domino_docs_version
