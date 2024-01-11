@@ -6,9 +6,26 @@ import requests
 import pandas as pd
 from mlflow.deployments import get_deploy_client
 from ui.sidebar import build_sidebar
+from langchain.chains import ConversationChain
+from langchain_community.chat_models import ChatMlflow
+from langchain.schema import HumanMessage, SystemMessage
+from langchain import PromptTemplate
+from langchain.memory import ConversationSummaryMemory
 
-# Initialize Mlflow client
-client = get_deploy_client(os.environ["DOMINO_MLFLOW_DEPLOYMENTS"])
+# Initialize Mlflow client 
+chat = ChatMlflow(
+    target_uri=os.environ["DOMINO_MLFLOW_DEPLOYMENTS"],
+    endpoint="chat",
+)
+
+# Initialize conversation chain
+conversation = ConversationChain(
+    llm=chat,
+    memory=ConversationSummaryMemory(llm=chat),
+    verbose=True
+)
+
+# Set MLflow experiment to use for logging
 mlflow.set_experiment("chatbot-app")
 
 # App title
@@ -44,28 +61,29 @@ def get_relevant_docs(user_input):
 def queryOpenAIModel(user_input, past_user_inputs=None, generate_responses=None):
 
     relevant_docs = get_relevant_docs(user_input)
-    
-    system_prompt = """ If the user asks a question that is not related to Domino Data Labs, AI, or machine learning, respond with the following keyword: https://www.youtube.com/watch?v=dQw4w9WgXcQ. 
+
+    template = """ If the user asks a question that is not related to Domino Data Labs, AI, or machine learning, respond with the following keyword: https://www.youtube.com/watch?v=dQw4w9WgXcQ. 
                     Otherwise, you are a virtual assistant for Domino Data Labs and your task is to answer questions related to Domino Data Labs which includes general AI/machine learning concepts.
                     When answering questions, only refer to the latest version of Domino. Do not use information from older versions of Domino. 
                     In your response, include a list of the references (with URL links) where you obtained the information from.
-                    Here is some relevant context: {}""".format(relevant_docs)
+                    Here is some relevant context: {relevant_docs} """
 
-    response = client.predict(
-        endpoint="chat",
-        inputs={ "messages": [
-                    { 
-                        "role": "system", 
-                        "content": system_prompt
-                    },
-                    { 
-                        "role": "user", 
-                        "content": user_input
-                    } 
-                ]
-        },
+    prompt_template = PromptTemplate(
+        input_variables=["relevant_docs"],
+        template=template
     )
-    output = response["choices"][0]["message"]["content"]
+    system_prompt = prompt_template.format(relevant_docs=relevant_docs)
+
+    messages = [
+        SystemMessage(
+            content=system_prompt
+        ),
+        HumanMessage(
+            content=user_input
+        ),
+    ]
+
+    output = conversation.predict(input=messages)
 
     # Log results to MLflow
     with mlflow.start_run():
