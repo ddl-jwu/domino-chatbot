@@ -13,6 +13,27 @@ from domino_data.vectordb import DominoPineconeConfiguration
 # Number of texts to match (may be less if no suitable match)
 NUM_TEXT_MATCHES = 3
 
+# Mapping of release to versions to filter (patch releases and different formatting)
+RELEASES_MAPPING = {
+    "Latest (5.9)": ["latest", "5.9", "5-9-0"],
+    "5.8": ["5.8", "5-8-0"],
+    "5.7": ["5.7", "5-7-4", "5-7-3", "5-7-2", "5-7-1", "5-7-0"],
+    "5.6": ["5.6", "5-6-2", "5-6-1", "5-6-0"], 
+    "5.5": ["5.5", "5-5-4", "5-5-3", "5-5-2", "5-5-1", "5-5-0"], 
+    "5.4": ["5.4", "5-4-1", "5-4-0"],
+    "5.3": ["5.3", "5-3-3", "5-3-2", "5-3-1", "5-3-0"], 
+    "5.2": ["5.2", "5-2-2", "5-2-1", "5-2-0"],
+    "5.1": ["5.1", "5-1-4", "5-1-3", "5-1-2", "5-1-1", "5-1-0"],
+    "5.0": ["5.0", "5-0-2", "5-0-1", "5-0-0"],
+    "4.6": ["4.6", "4-6-4", "4-6-3", "4-6-2", "4-6-1", "4-6-0"], 
+    "4.5": ["4.5", "4-5-2", "4-5-1", "4-5-0"], 
+    "4.4": ["4.4", "4-4-2", "4-4-1", "4-4-0"], 
+    "4.3": ["4.3", "4-3-3", "4-3-2", "4-3-1", "4-3-0"],
+    "4.2": ["4.2", "4-2"], # "4-2" seems correct based on the data
+    "4.1": ["4.1", "4-1"], 
+    "3.6": ["3.6", "3-6"]
+}
+
 # Initialize Mlflow client
 client = get_deploy_client(os.environ["DOMINO_MLFLOW_DEPLOYMENTS"])
 mlflow.set_experiment("chatbot-app")
@@ -68,10 +89,7 @@ if prompt := st.chat_input("Chat with Pippy"):
 def get_query_filter(user_input):    
     filter = dict()
     # Use version from user selection
-    if "latest" in domino_docs_version.lower():
-        filter["version"] = {"$eq": "latest"}
-    else:
-        filter["version"] = {"$eq": domino_docs_version}
+    filter["version"] = {"$in": RELEASES_MAPPING[domino_docs_version]}
 
     # Use category from user selection
     if not "all" in doc_category.lower():
