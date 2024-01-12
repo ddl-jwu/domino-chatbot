@@ -1,0 +1,813 @@
+url,category,version,title,pdf
+https://docs.dominodatalab.com/,,,Domino Documentation,index.pdf
+https://docs.dominodatalab.com/,,,Domino Documentation,index.pdf
+https://docs.dominodatalab.com/release_notes/5-7-1/,release_notes,5-7-1,Domino 5.7.1 (August 2023),release_notes_5-7-1.pdf
+https://docs.dominodatalab.com/release_notes/5-7-2/,release_notes,5-7-2,Domino 5.7.2 (September 2023),release_notes_5-7-2.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/053e1f/external-data-volumes/,admin_guide,5.7,External data volumes,en_5.7_admin_guide_053e1f_external-data-volumes.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/f5934f/data-source-audit-logs/,admin_guide,5.7,Data Source audit logs,en_5.7_admin_guide_f5934f_data-source-audit-logs.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/d779d2/fine-tune-foundation-models--preview-/,user_guide,5.7,Fine-tune Foundation Models (preview),en_5.7_user_guide_d779d2_fine-tune-foundation-models--preview-.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/e34be1/project-audit-logs/,admin_guide,5.7,Project audit logs,en_5.7_admin_guide_e34be1_project-audit-logs.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/9f10c9/deploy-your-model/,user_guide,5.7,Deploy your model,en_5.7_user_guide_9f10c9_deploy-your-model.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/288e42/develop-your-model/,user_guide,5.7,Develop your model,en_5.7_user_guide_288e42_develop-your-model.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/874b46/tune-hyperparameters-with-ray-tune/,user_guide,5.7,Tune hyperparameters with Ray Tune,en_5.7_user_guide_874b46_tune-hyperparameters-with-ray-tune.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/0d73c6/domino-standard-environments/,user_guide,5.7,Domino Standard Environments,en_5.7_user_guide_0d73c6_domino-standard-environments.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/da707d/track-and-monitor-experiments/,user_guide,5.7,Track and monitor experiments,en_5.7_user_guide_da707d_track-and-monitor-experiments.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/fa8137/create-an-environment/,user_guide,5.7,Create an Environment,en_5.7_user_guide_fa8137_create-an-environment.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/dd6c5d/scale-distributed-workloads/,user_guide,5.7,Scale distributed workloads,en_5.7_user_guide_dd6c5d_scale-distributed-workloads.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/de429d/sunset-environments/,admin_guide,5.7,Sunset Environments,en_5.7_admin_guide_de429d_sunset-environments.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/402c65/configure-mpi-prerequisites/,user_guide,5.7,Configure MPI prerequisites,en_5.7_user_guide_402c65_configure-mpi-prerequisites.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/5ecbff/set-a-default-environment/,user_guide,5.7,Set a default Environment,en_5.7_user_guide_5ecbff_set-a-default-environment.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/85ae58/manage-dependencies/,user_guide,5.7,Manage dependencies,en_5.7_user_guide_85ae58_manage-dependencies.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/d60880/distributed-gpus-with-open-mpi/,user_guide,5.7,Distributed GPUs with Open MPI,en_5.7_user_guide_d60880_distributed-gpus-with-open-mpi.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/f2d0f3/clean-your-environment-catalog/,admin_guide,5.7,Clean your Environment catalog,en_5.7_admin_guide_f2d0f3_clean-your-environment-catalog.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/e6e601/launch-a-workspace/,user_guide,5.7,Launch a Workspace,en_5.7_user_guide_e6e601_launch-a-workspace.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/3e137b/configure-prerequisites/,user_guide,5.7,Configure prerequisites,en_5.7_user_guide_3e137b_configure-prerequisites.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/747a51/on-demand-dask/,user_guide,5.7,On-demand Dask,en_5.7_user_guide_747a51_on-demand-dask.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/3dcdb2/manage-dependencies/,user_guide,5.7,Manage dependencies,en_5.7_user_guide_3dcdb2_manage-dependencies.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/d13903/on-demand-ray/,user_guide,5.7,On-demand Ray,en_5.7_user_guide_d13903_on-demand-ray.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/68faaa/spark-on-domino/,user_guide,5.7,Spark on Domino,en_5.7_user_guide_68faaa_spark-on-domino.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/dba65c/set-project-settings/,user_guide,5.7,Set Project settings,en_5.7_user_guide_dba65c_set-project-settings.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/0c042e/hadoop-and-spark/,user_guide,5.7,Hadoop and Spark,en_5.7_user_guide_0c042e_hadoop-and-spark.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/d7731d/share-and-collaborate/,user_guide,5.7,Share and collaborate,en_5.7_user_guide_d7731d_share-and-collaborate.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/bf6681/use-pyspark-in-jupyter-workspaces/,user_guide,5.7,Use PySpark in Jupyter Workspaces,en_5.7_user_guide_bf6681_use-pyspark-in-jupyter-workspaces.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/e6ed48/export-and-import-project-content/,user_guide,5.7,Export and import Project content,en_5.7_user_guide_e6ed48_export-and-import-project-content.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/5c2374/transfer-project-ownership/,user_guide,5.7,Transfer Project ownership,en_5.7_user_guide_5c2374_transfer-project-ownership.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/d982f4/run-local-spark-on-a-domino-executor/,user_guide,5.7,Run local Spark on a Domino Executor,en_5.7_user_guide_d982f4_run-local-spark-on-a-domino-executor.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/5c1ab6/troubleshoot-imports/,user_guide,5.7,Troubleshoot imports,en_5.7_user_guide_5c1ab6_troubleshoot-imports.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/ed5f5a/kerberos-authentication/,user_guide,5.7,Kerberos authentication,en_5.7_user_guide_ed5f5a_kerberos-authentication.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/aa0f53/connect-to-a-hortonworks-cluster-from-domino/,user_guide,5.7,Connect to a Hortonworks cluster from Domino,en_5.7_user_guide_aa0f53_connect-to-a-hortonworks-cluster-from-domino.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/cdbf96/connect-to-a-mapr-cluster-from-domino/,user_guide,5.7,Connect to a MapR cluster from Domino,en_5.7_user_guide_cdbf96_connect-to-a-mapr-cluster-from-domino.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/b18456/connect-to-an-amazon-emr-cluster-from-domino/,user_guide,5.7,Connect to an Amazon EMR cluster from Domino,en_5.7_user_guide_b18456_connect-to-an-amazon-emr-cluster-from-domino.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/83e94a/connect-to-a-cloudera-cdh5-cluster-from-domino/,user_guide,5.7,Connect to a Cloudera CDH5 cluster from Domino,en_5.7_user_guide_83e94a_connect-to-a-cloudera-cdh5-cluster-from-domino.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/716281/configure-projects/,user_guide,5.7,Configure Projects,en_5.7_user_guide_716281_configure-projects.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/482ec5/on-demand-spark/,user_guide,5.7,On-demand Spark,en_5.7_user_guide_482ec5_on-demand-spark.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/71d6ad/central-configuration/,admin_guide,5.7,Central Configuration,en_5.7_admin_guide_71d6ad_central-configuration.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/8590a9/rename-a-project/,user_guide,5.7,Rename a Project,en_5.7_user_guide_8590a9_rename-a-project.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/d05707/customize-the-domino-ui/,admin_guide,5.7,Customize the Domino UI,en_5.7_admin_guide_d05707_customize-the-domino-ui.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/aec000/whitelist-resources/,user_guide,5.7,Whitelist resources,en_5.7_user_guide_aec000_whitelist-resources.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/6e50e8/view-user-activity/,admin_guide,5.7,View user activity,en_5.7_admin_guide_6e50e8_view-user-activity.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/a29497/app-scalability-and-performance/,user_guide,5.7,App scalability and performance,en_5.7_user_guide_a29497_app-scalability-and-performance.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/de48cc/manage-users/,admin_guide,5.7,Manage users,en_5.7_admin_guide_de48cc_manage-users.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/77ca94/execution-results/,user_guide,5.7,Execution results,en_5.7_user_guide_77ca94_execution-results.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/b2471f/activate-users/,admin_guide,5.7,Activate users,en_5.7_admin_guide_b2471f_activate-users.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/e4f67f/automate-complex-pipelines-with-apache-airflow/,user_guide,5.7,Automate complex pipelines with Apache Airflow,en_5.7_user_guide_e4f67f_automate-complex-pipelines-with-apache-airflow.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/57f42d/reset-password/,admin_guide,5.7,Reset password,en_5.7_admin_guide_57f42d_reset-password.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/1a7dfa/keycloak-set-up/,admin_guide,5.7,Keycloak set up,en_5.7_admin_guide_1a7dfa_keycloak-set-up.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/aa19d4/email-configuration/,admin_guide,5.7,Email configuration,en_5.7_admin_guide_aa19d4_email-configuration.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/021788/limit-concurrent-user-sessions/,admin_guide,5.7,Limit concurrent user sessions,en_5.7_admin_guide_021788_limit-concurrent-user-sessions.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/373f69/sso--single-sign-on-/,admin_guide,5.7,SSO (Single sign-on),en_5.7_admin_guide_373f69_sso--single-sign-on-.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/0e334d/single-sign-on--sso--configuration/,admin_guide,5.7,Single sign-on (SSO) configuration,en_5.7_admin_guide_0e334d_single-sign-on--sso--configuration.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/eb6a88/aws-credential-propagation/,admin_guide,5.7,AWS credential propagation,en_5.7_admin_guide_eb6a88_aws-credential-propagation.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/bc00bd/sso-group-and-role-synchronization/,admin_guide,5.7,SSO group and role synchronization,en_5.7_admin_guide_bc00bd_sso-group-and-role-synchronization.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/dd93d4/connect-to-amazon-s3/,user_guide,5.7,Connect to Amazon S3,en_5.7_user_guide_dd93d4_connect-to-amazon-s3.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/76e38c/domino-cloud-sso-integration/,admin_guide,5.7,Domino Cloud SSO integration,en_5.7_admin_guide_76e38c_domino-cloud-sso-integration.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/33ea62/data-source-security-and-sharing/,user_guide,5.7,Data Source security and sharing,en_5.7_user_guide_33ea62_data-source-security-and-sharing.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/fa5f3a/use-data-sources/,user_guide,5.7,Use Data Sources,en_5.7_user_guide_fa5f3a_use-data-sources.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/fbb41f/data-source-connectors/,user_guide,5.7,Data Source Connectors,en_5.7_user_guide_fbb41f_data-source-connectors.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/b08113/data-drift-and-quality-monitoring/,user_guide,5.7,Data drift and quality monitoring,en_5.7_user_guide_b08113_data-drift-and-quality-monitoring.pdf
+https://docs.dominodatalab.com/en/5.7/api_guide/440de9/trainingsets-use-cases/,api_guide,5.7,TrainingSets Use Cases,en_5.7_api_guide_440de9_trainingsets-use-cases.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/b83660/connect-to-okera/,user_guide,5.7,Connect to Okera,en_5.7_user_guide_b83660_connect-to-okera.pdf
+https://docs.dominodatalab.com/en/5.7/api_guide/6def59/delete-trainingsets/,api_guide,5.7,Delete TrainingSets,en_5.7_api_guide_6def59_delete-trainingsets.pdf
+https://docs.dominodatalab.com/en/5.7/api_guide/d72d8a/update-trainingset/,api_guide,5.7,Update TrainingSet,en_5.7_api_guide_d72d8a_update-trainingset.pdf
+https://docs.dominodatalab.com/en/5.7/api_guide/5cef05/retrieve-trainingsets/,api_guide,5.7,Retrieve TrainingSets,en_5.7_api_guide_5cef05_retrieve-trainingsets.pdf
+https://docs.dominodatalab.com/en/5.7/api_guide/9c4dec/create-trainingsets/,api_guide,5.7,Create TrainingSets,en_5.7_api_guide_9c4dec_create-trainingsets.pdf
+https://docs.dominodatalab.com/en/5.7/api_guide/c5ef26/the-python-domino-library/,api_guide,5.7,The python-domino Library,en_5.7_api_guide_c5ef26_the-python-domino-library.pdf
+https://docs.dominodatalab.com/en/5.7/api_guide/d9cc25/python-wrapper-for-domino-api/,api_guide,5.7,Python Wrapper for Domino API,en_5.7_api_guide_d9cc25_python-wrapper-for-domino-api.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/ba5bad/manage-data-in-domino-datasets/,user_guide,latest,Manage data in Domino Datasets,en_latest_user_guide_ba5bad_manage-data-in-domino-datasets.pdf
+https://docs.dominodatalab.com/en/5.7/api_guide/f31cde/model-monitoring-api-reference/,api_guide,5.7,Model Monitoring API Reference,en_5.7_api_guide_f31cde_model-monitoring-api-reference.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/bd3a62/api-token/,user_guide,5.7,API token,en_5.7_user_guide_bd3a62_api-token.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/4dc322/dataset-upgrade-prior-to-4-5/,admin_guide,latest,Dataset upgrade prior to 4.5,en_latest_admin_guide_4dc322_dataset-upgrade-prior-to-4-5.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/8608f7/monitor-settings/,user_guide,5.7,Monitor settings,en_5.7_user_guide_8608f7_monitor-settings.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/cc8a91/send-feedback/,admin_guide,latest,Send feedback,en_latest_admin_guide_cc8a91_send-feedback.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/c940df/mongodb-console/,admin_guide,latest,MongoDB console,en_latest_admin_guide_c940df_mongodb-console.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/9c6da7/run-the-admin-toolkit/,admin_guide,latest,Run the admin toolkit,en_latest_admin_guide_9c6da7_run-the-admin-toolkit.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/90423b/get-help/,admin_guide,latest,Get help,en_latest_admin_guide_90423b_get-help.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/30fc1c/configuration-reference/,admin_guide,latest,Configuration reference,en_latest_admin_guide_30fc1c_configuration-reference.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/48f473/browser-support/,user_guide,latest,Browser support,en_latest_user_guide_48f473_browser-support.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/d05707/customize-the-domino-ui/,admin_guide,latest,Customize the Domino UI,en_latest_admin_guide_d05707_customize-the-domino-ui.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/6469bf/feature-flags/,admin_guide,latest,Feature Flags,en_latest_admin_guide_6469bf_feature-flags.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/06c620/deployments-telemetry/,admin_guide,latest,Deployments telemetry,en_latest_admin_guide_06c620_deployments-telemetry.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/482ec5/on-demand-spark/,user_guide,latest,On-demand Spark,en_latest_user_guide_482ec5_on-demand-spark.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/06822c/fleetcommand-agent-install-tool/,admin_guide,latest,fleetcommand-agent Install Tool,en_latest_admin_guide_06822c_fleetcommand-agent-install-tool.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/68faaa/spark-on-domino/,user_guide,latest,Spark on Domino,en_latest_user_guide_68faaa_spark-on-domino.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/824530/fleetcommand-agent-command-reference/,admin_guide,latest,fleetcommand-agent Command Reference,en_latest_admin_guide_824530_fleetcommand-agent-command-reference.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/0c042e/hadoop-and-spark/,user_guide,latest,Hadoop and Spark,en_latest_user_guide_0c042e_hadoop-and-spark.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/360714/run-fleetcommand-agent-commands/,admin_guide,latest,Run fleetcommand-agent commands,en_latest_admin_guide_360714_run-fleetcommand-agent-commands.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/bf6681/use-pyspark-in-jupyter-workspaces/,user_guide,latest,Use PySpark in Jupyter Workspaces,en_latest_user_guide_bf6681_use-pyspark-in-jupyter-workspaces.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/d982f4/run-local-spark-on-a-domino-executor/,user_guide,latest,Run local Spark on a Domino Executor,en_latest_user_guide_d982f4_run-local-spark-on-a-domino-executor.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/0d73c6/domino-standard-environments/,user_guide,latest,Domino Standard Environments,en_latest_user_guide_0d73c6_domino-standard-environments.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/ed5f5a/kerberos-authentication/,user_guide,latest,Kerberos authentication,en_latest_user_guide_ed5f5a_kerberos-authentication.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/fa8137/create-an-environment/,user_guide,latest,Create an Environment,en_latest_user_guide_fa8137_create-an-environment.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/190175/configure-prerequisites/,user_guide,latest,Configure prerequisites,en_latest_user_guide_190175_configure-prerequisites.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/de429d/sunset-environments/,admin_guide,latest,Sunset Environments,en_latest_admin_guide_de429d_sunset-environments.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/bb6af0/manage-dependencies/,user_guide,latest,Manage dependencies,en_latest_user_guide_bb6af0_manage-dependencies.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/5ecbff/set-a-default-environment/,user_guide,latest,Set a default Environment,en_latest_user_guide_5ecbff_set-a-default-environment.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/f2d0f3/clean-your-environment-catalog/,admin_guide,latest,Clean your Environment catalog,en_latest_admin_guide_f2d0f3_clean-your-environment-catalog.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/23187f/pre-requisites-for-automatic-custom-image-compatibility/,user_guide,latest,Pre-requisites for automatic custom image compatibility,en_latest_user_guide_23187f_pre-requisites-for-automatic-custom-image-compatibility.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/e79fe6/cache-environment-images-in-eks/,admin_guide,latest,Cache Environment images in EKS,en_latest_admin_guide_e79fe6_cache-environment-images-in-eks.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/5babee/use-external-images-in-domino-environments/,user_guide,latest,Use external images in Domino Environments,en_latest_user_guide_5babee_use-external-images-in-domino-environments.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/e46d54/customize-environments/,user_guide,latest,Customize Environments,en_latest_user_guide_e46d54_customize-environments.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/78ae6b/manually-create-an-environment-with-a-pre-built-image/,user_guide,latest,Manually create an Environment with a pre-built image,en_latest_user_guide_78ae6b_manually-create-an-environment-with-a-pre-built-image.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/c11e1c/deploy-a-custom-image/,user_guide,latest,Deploy a custom image,en_latest_user_guide_c11e1c_deploy-a-custom-image.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/4e7f25/configure-native-workspaces/,user_guide,latest,Configure native Workspaces,en_latest_user_guide_4e7f25_configure-native-workspaces.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/15200b/add--modify--and-share-file-handlers/,user_guide,latest,"Add, modify, and share file handlers",en_latest_user_guide_15200b_add--modify--and-share-file-handlers.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/03e062/add-workspace-ides/,user_guide,latest,Add Workspace IDEs,en_latest_user_guide_03e062_add-workspace-ides.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/ed1c08/create-environments-from-external-custom-images/,admin_guide,latest,Create Environments from external custom images,en_latest_admin_guide_ed1c08_create-environments-from-external-custom-images.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/fbb1db/open-a-vs-code-workspace/,user_guide,latest,Open a VS Code Workspace,en_latest_user_guide_fbb1db_open-a-vs-code-workspace.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/35ff43/pluggable-workspaces/,user_guide,latest,Pluggable Workspaces,en_latest_user_guide_35ff43_pluggable-workspaces.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/2c01ae/run-multiple-applications-in-a-workspace/,user_guide,latest,Run multiple applications in a Workspace,en_latest_user_guide_2c01ae_run-multiple-applications-in-a-workspace.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/74ed74/use-tensorboard-in-jupyter-workspaces/,user_guide,latest,Use TensorBoard in Jupyter Workspaces,en_latest_user_guide_74ed74_use-tensorboard-in-jupyter-workspaces.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/d8e0a6/add-a-scala-kernel/,user_guide,latest,Add a Scala kernel,en_latest_user_guide_d8e0a6_add-a-scala-kernel.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/bfa148/add-packages-to-environments/,user_guide,latest,Add packages to Environments,en_latest_user_guide_bfa148_add-packages-to-environments.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/1b6cf3/anaconda-on-domino--legal-considerations/,user_guide,latest,Anaconda on Domino: Legal considerations,en_latest_user_guide_1b6cf3_anaconda-on-domino--legal-considerations.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/813d89/preload-environment-packages/,user_guide,latest,Preload Environment packages,en_latest_user_guide_813d89_preload-environment-packages.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/e7805a/use-sas-as-a-workspace/,user_guide,latest,Use SAS as a Workspace,en_latest_user_guide_e7805a_use-sas-as-a-workspace.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/063fca/stata/,user_guide,latest,Stata,en_latest_user_guide_063fca_stata.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/f08799/matlab/,user_guide,latest,MATLAB,en_latest_user_guide_f08799_matlab.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/35f28e/create-an-intel-ai-kit-environment/,user_guide,latest,Create an Intel AI Kit Environment,en_latest_user_guide_35f28e_create-an-intel-ai-kit-environment.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/e21e55/install-the-domino-command-line-interface--cli-/,user_guide,latest,Install the Domino Command Line Interface (CLI),en_latest_user_guide_e21e55_install-the-domino-command-line-interface--cli-.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/9355a5/domino-cli-reference/,user_guide,latest,Domino CLI reference,en_latest_user_guide_9355a5_domino-cli-reference.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/07075d/ami-operations/,admin_guide,latest,AMI operations,en_latest_admin_guide_07075d_ami-operations.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/6fdcff/nvidia-ngc/,user_guide,latest,NVIDIA NGC,en_latest_user_guide_6fdcff_nvidia-ngc.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/5dd2c1/edit-environment-definition/,user_guide,latest,Edit Environment definition,en_latest_user_guide_5dd2c1_edit-environment-definition.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/aa0f53/connect-to-a-hortonworks-cluster-from-domino/,user_guide,latest,Connect to a Hortonworks cluster from Domino,en_latest_user_guide_aa0f53_connect-to-a-hortonworks-cluster-from-domino.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/cdbf96/connect-to-a-mapr-cluster-from-domino/,user_guide,latest,Connect to a MapR cluster from Domino,en_latest_user_guide_cdbf96_connect-to-a-mapr-cluster-from-domino.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/b18456/connect-to-an-amazon-emr-cluster-from-domino/,user_guide,latest,Connect to an Amazon EMR cluster from Domino,en_latest_user_guide_b18456_connect-to-an-amazon-emr-cluster-from-domino.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/83e94a/connect-to-a-cloudera-cdh5-cluster-from-domino/,user_guide,latest,Connect to a Cloudera CDH5 cluster from Domino,en_latest_user_guide_83e94a_connect-to-a-cloudera-cdh5-cluster-from-domino.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/57924f/upgrade-fleetcommand-agent/,admin_guide,latest,Upgrade fleetcommand-agent,en_latest_admin_guide_57924f_upgrade-fleetcommand-agent.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/0ccd76/install-fleetcommand-agent/,admin_guide,latest,Install fleetcommand-agent,en_latest_admin_guide_0ccd76_install-fleetcommand-agent.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/ad1062/upgrade-domino/,admin_guide,latest,Upgrade Domino,en_latest_admin_guide_ad1062_upgrade-domino.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/d7ca64/requirements/,admin_guide,latest,Requirements,en_latest_admin_guide_d7ca64_requirements.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/0fa80e/user-acceptance-testing/,admin_guide,latest,User acceptance testing,en_latest_admin_guide_0fa80e_user-acceptance-testing.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/450d66/fleetcommand-cli-reference/,admin_guide,latest,Fleetcommand CLI reference,en_latest_admin_guide_450d66_fleetcommand-cli-reference.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/f86aa5/work-from-a-commit-id-in-git/,user_guide,latest,Work from a commit ID in Git,en_latest_user_guide_f86aa5_work-from-a-commit-id-in-git.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/b7341e/install-with-token-and-fleetcommand-cli/,admin_guide,latest,Install with Token and Fleetcommand CLI,en_latest_admin_guide_b7341e_install-with-token-and-fleetcommand-cli.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/9453b6/view-workspace-history/,user_guide,latest,View Workspace history,en_latest_user_guide_9453b6_view-workspace-history.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/b5dd5a/set-up-keycloak-authentication-services/,admin_guide,latest,Set up Keycloak authentication services,en_latest_admin_guide_b5dd5a_set-up-keycloak-authentication-services.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/5765ba/installation-overview/,admin_guide,latest,Installation overview,en_latest_admin_guide_5765ba_installation-overview.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/021788/limit-concurrent-user-sessions/,admin_guide,latest,Limit concurrent user sessions,en_latest_admin_guide_021788_limit-concurrent-user-sessions.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/8fe42a/requirements/,admin_guide,latest,Requirements,en_latest_admin_guide_8fe42a_requirements.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/eb57d2/streamlined-domino-yaml-downloads/,admin_guide,latest,Streamlined domino.yaml downloads,en_latest_admin_guide_eb57d2_streamlined-domino-yaml-downloads.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/87b601/private-or-offline-installation/,admin_guide,latest,Private or offline installation,en_latest_admin_guide_87b601_private-or-offline-installation.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/e96f4c/google-cloud-platform--gcp--deployments/,admin_guide,latest,Google Cloud Platform (GCP) deployments,en_latest_admin_guide_e96f4c_google-cloud-platform--gcp--deployments.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/bf888c/azure-deployments/,admin_guide,latest,Azure deployments,en_latest_admin_guide_bf888c_azure-deployments.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/b6b37d/kubernetes-upgrade-guide/,admin_guide,latest,Kubernetes upgrade guide,en_latest_admin_guide_b6b37d_kubernetes-upgrade-guide.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/d41d8c/kubernetes-upgrade-guide/,admin_guide,latest,Kubernetes upgrade guide,en_latest_admin_guide_d41d8c_kubernetes-upgrade-guide.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/ebc28f/deploy-domino/,admin_guide,latest,Deploy Domino,en_latest_admin_guide_ebc28f_deploy-domino.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/bfdaf6/provision-infrastructure-and-runtime-environment/,admin_guide,latest,Provision infrastructure and runtime Environment,en_latest_admin_guide_bfdaf6_provision-infrastructure-and-runtime-environment.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/f691db/prepare-to-install/,admin_guide,latest,Prepare to install,en_latest_admin_guide_f691db_prepare-to-install.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/4a4332/azure-deployment-architecture/,admin_guide,latest,Azure deployment architecture,en_latest_admin_guide_4a4332_azure-deployment-architecture.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/d108fc/deploy-domino/,admin_guide,latest,Deploy Domino,en_latest_admin_guide_d108fc_deploy-domino.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/cca053/provision-infrastructure-and-runtime-environment/,admin_guide,latest,Provision infrastructure and runtime Environment,en_latest_admin_guide_cca053_provision-infrastructure-and-runtime-environment.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/9de45f/prepare-to-install/,admin_guide,latest,Prepare to install,en_latest_admin_guide_9de45f_prepare-to-install.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/bb7224/gcp-deployment-architecture/,admin_guide,latest,GCP deployment architecture,en_latest_admin_guide_bb7224_gcp-deployment-architecture.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/e3bf0a/amazon-web-services--aws--deployments/,admin_guide,latest,Amazon Web Services (AWS) deployments,en_latest_admin_guide_e3bf0a_amazon-web-services--aws--deployments.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/373f69/sso--single-sign-on-/,admin_guide,latest,SSO (Single sign-on),en_latest_admin_guide_373f69_sso--single-sign-on-.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/13423d/kubernetes-upgrade-guide/,admin_guide,latest,Kubernetes upgrade guide,en_latest_admin_guide_13423d_kubernetes-upgrade-guide.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/eb6a88/aws-credential-propagation/,admin_guide,latest,AWS credential propagation,en_latest_admin_guide_eb6a88_aws-credential-propagation.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/bc00bd/sso-group-and-role-synchronization/,admin_guide,latest,SSO group and role synchronization,en_latest_admin_guide_bc00bd_sso-group-and-role-synchronization.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/dd93d4/connect-to-amazon-s3/,user_guide,latest,Connect to Amazon S3,en_latest_user_guide_dd93d4_connect-to-amazon-s3.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/2611b7/roles/,admin_guide,latest,Roles,en_latest_admin_guide_2611b7_roles.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/33ea62/data-source-security-and-sharing/,user_guide,latest,Data Source security and sharing,en_latest_user_guide_33ea62_data-source-security-and-sharing.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/fa5f3a/use-data-sources/,user_guide,latest,Use Data Sources,en_latest_user_guide_fa5f3a_use-data-sources.pdf
+https://docs.dominodatalab.com/en/latest/api_guide/490a1c/authentication/,api_guide,latest,Authentication,en_latest_api_guide_490a1c_authentication.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/b08113/data-drift-and-quality-monitoring/,user_guide,latest,Data drift and quality monitoring,en_latest_user_guide_b08113_data-drift-and-quality-monitoring.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/ac36e3/cohort-analysis/,user_guide,latest,Cohort Analysis,en_latest_user_guide_ac36e3_cohort-analysis.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/d4f9b7/analyze-model-quality/,user_guide,latest,Analyze model quality,en_latest_user_guide_d4f9b7_analyze-model-quality.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/c1dce7/set-up-cohort-analysis/,user_guide,latest,Set up Cohort Analysis,en_latest_user_guide_c1dce7_set-up-cohort-analysis.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/bb88ca/monitoring-config-json/,user_guide,latest,Monitoring Config JSON,en_latest_user_guide_bb88ca_monitoring-config-json.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/b1b1ca/set-up-cohort-analysis/,user_guide,latest,Set up Cohort Analysis,en_latest_user_guide_b1b1ca_set-up-cohort-analysis.pdf
+https://docs.dominodatalab.com/en/latest/api_guide/f31cde/model-monitoring-api-reference/,api_guide,latest,Model Monitoring API Reference,en_latest_api_guide_f31cde_model-monitoring-api-reference.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/8c7833/connect-a-data-source/,user_guide,latest,Connect a Data Source,en_latest_user_guide_8c7833_connect-a-data-source.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/679cc1/set-up-model-monitor/,user_guide,latest,Set up Model Monitor,en_latest_user_guide_679cc1_set-up-model-monitor.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/ce3835/set-up-model-quality-monitoring/,user_guide,latest,Set up model quality monitoring,en_latest_user_guide_ce3835_set-up-model-quality-monitoring.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/a1056b/configure-model-permissions/,user_guide,latest,Configure Model permissions,en_latest_user_guide_a1056b_configure-model-permissions.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/4da05b/set-scheduled-checks/,user_guide,latest,Set scheduled checks,en_latest_user_guide_4da05b_set-scheduled-checks.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/287438/set-up-notifications/,user_guide,latest,Set up notifications,en_latest_user_guide_287438_set-up-notifications.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/afc767/set-scheduled-checks/,user_guide,latest,Set scheduled checks,en_latest_user_guide_afc767_set-scheduled-checks.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/9ebe39/set-up-notifications/,user_guide,latest,Set up notifications,en_latest_user_guide_9ebe39_set-up-notifications.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/a94c1c/model-monitoring-apis/,user_guide,latest,Model Monitoring APIs,en_latest_user_guide_a94c1c_model-monitoring-apis.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/d1f8bb/register-a-model/,user_guide,latest,Register a Model,en_latest_user_guide_d1f8bb_register-a-model.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/386451/notification-channels/,user_guide,latest,Notification channels,en_latest_user_guide_386451_notification-channels.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/be1fd2/install-packages-for-model-monitoring/,user_guide,latest,Install packages for Model Monitoring,en_latest_user_guide_be1fd2_install-packages-for-model-monitoring.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/8608f7/monitor-settings/,user_guide,latest,Monitor settings,en_latest_user_guide_8608f7_monitor-settings.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/bd3a62/api-token/,user_guide,latest,API token,en_latest_user_guide_bd3a62_api-token.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/2a7c3b/monitoring-for-model-apis/,user_guide,latest,Monitoring for Model APIs,en_latest_user_guide_2a7c3b_monitoring-for-model-apis.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/3851db/set-up-model-quality-monitoring/,user_guide,latest,Set up model quality monitoring,en_latest_user_guide_3851db_set-up-model-quality-monitoring.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/86bc1f/set-up-drift-detection/,user_guide,latest,Set up drift detection,en_latest_user_guide_86bc1f_set-up-drift-detection.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/c97091/set-up-drift-detection/,user_guide,latest,Set up drift detection,en_latest_user_guide_c97091_set-up-drift-detection.pdf
+https://docs.dominodatalab.com/en/latest/api_guide/9c4dec/create-trainingsets/,api_guide,latest,Create TrainingSets,en_latest_api_guide_9c4dec_create-trainingsets.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/93e5c0/set-up-prediction-capture/,user_guide,latest,Set up prediction capture,en_latest_user_guide_93e5c0_set-up-prediction-capture.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/7080da/remediation/,user_guide,latest,Remediation,en_latest_user_guide_7080da_remediation.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/f33b63/analyze-data-drift/,user_guide,latest,Analyze data drift,en_latest_user_guide_f33b63_analyze-data-drift.pdf
+https://docs.dominodatalab.com/en/latest/api_guide/d9cc25/python-wrapper-for-domino-api/,api_guide,latest,Python Wrapper for Domino API,en_latest_api_guide_d9cc25_python-wrapper-for-domino-api.pdf
+https://docs.dominodatalab.com/en/latest/api_guide/ad1224/domino-r-package/,api_guide,latest,Domino R Package,en_latest_api_guide_ad1224_domino-r-package.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/66f1f0/test-defaults/,user_guide,latest,Test defaults,en_latest_user_guide_66f1f0_test-defaults.pdf
+https://docs.dominodatalab.com/en/latest/api_guide/a5bd0c/custom-metrics-sdk/,api_guide,latest,Custom Metrics SDK,en_latest_api_guide_a5bd0c_custom-metrics-sdk.pdf
+https://docs.dominodatalab.com/en/latest/api_guide/d982cc/get-api-key/,api_guide,latest,Get API Key,en_latest_api_guide_d982cc_get-api-key.pdf
+https://docs.dominodatalab.com/en/latest/api_guide/440de9/trainingsets-use-cases/,api_guide,latest,TrainingSets Use Cases,en_latest_api_guide_440de9_trainingsets-use-cases.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/c65074/nexus-hybrid-architecture/,admin_guide,latest,Nexus Hybrid Architecture,en_latest_admin_guide_c65074_nexus-hybrid-architecture.pdf
+https://docs.dominodatalab.com/en/latest/api_guide/6def59/delete-trainingsets/,api_guide,latest,Delete TrainingSets,en_latest_api_guide_6def59_delete-trainingsets.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/98ad4f/control-plane-security-guidance/,admin_guide,latest,Control plane security guidance,en_latest_admin_guide_98ad4f_control-plane-security-guidance.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/491fe8/enable-a-data-plane-for-workspaces/,admin_guide,latest,Enable a Data Plane for Workspaces,en_latest_admin_guide_491fe8_enable-a-data-plane-for-workspaces.pdf
+https://docs.dominodatalab.com/en/latest/api_guide/d72d8a/update-trainingset/,api_guide,latest,Update TrainingSet,en_latest_api_guide_d72d8a_update-trainingset.pdf
+https://docs.dominodatalab.com/en/latest/api_guide/5cef05/retrieve-trainingsets/,api_guide,latest,Retrieve TrainingSets,en_latest_api_guide_5cef05_retrieve-trainingsets.pdf
+https://docs.dominodatalab.com/en/latest/api_guide/9edb62/custom-authentication/,api_guide,latest,Custom authentication,en_latest_api_guide_9edb62_custom-authentication.pdf
+https://docs.dominodatalab.com/en/latest/api_guide/5267b0/install-the-data-api/,api_guide,latest,Install the Data API,en_latest_api_guide_5267b0_install-the-data-api.pdf
+https://docs.dominodatalab.com/en/latest/api_guide/d49ab1/data-source-use-cases/,api_guide,latest,Data Source Use Cases,en_latest_api_guide_d49ab1_data-source-use-cases.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/df7044/data-security-and-sharing/,user_guide,latest,Data security and sharing,en_latest_user_guide_df7044_data-security-and-sharing.pdf
+https://docs.dominodatalab.com/en/latest/api_guide/e5761b/configuration-override/,api_guide,latest,Configuration override,en_latest_api_guide_e5761b_configuration-override.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/7ec608/edv-security-and-sharing/,user_guide,latest,EDV security and sharing,en_latest_user_guide_7ec608_edv-security-and-sharing.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/8f5b7e/dataset-sharing-and-security/,user_guide,latest,Dataset sharing and security,en_latest_user_guide_8f5b7e_dataset-sharing-and-security.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/f12554/external-data-volumes--edvs-/,user_guide,latest,External Data Volumes (EDVs),en_latest_user_guide_f12554_external-data-volumes--edvs-.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/e6ed48/export-and-import-project-content/,user_guide,latest,Export and import Project content,en_latest_user_guide_e6ed48_export-and-import-project-content.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/4cdae9/set-up-kubernetes-pv-and-pvc/,admin_guide,latest,Set up Kubernetes PV and PVC,en_latest_admin_guide_4cdae9_set-up-kubernetes-pv-and-pvc.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/5c1ab6/troubleshoot-imports/,user_guide,latest,Troubleshoot imports,en_latest_user_guide_5c1ab6_troubleshoot-imports.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/053e1f/external-data-volumes/,admin_guide,latest,External data volumes,en_latest_admin_guide_053e1f_external-data-volumes.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/3653e8/manage-external-data-connections/,admin_guide,latest,Manage external data connections,en_latest_admin_guide_3653e8_manage-external-data-connections.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/d7731d/share-and-collaborate/,user_guide,latest,Share and collaborate,en_latest_user_guide_d7731d_share-and-collaborate.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/ae2e6b/create-a-data-source/,admin_guide,latest,Create a Data Source,en_latest_admin_guide_ae2e6b_create-a-data-source.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/5c2374/transfer-project-ownership/,user_guide,latest,Transfer Project ownership,en_latest_user_guide_5c2374_transfer-project-ownership.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/a932d7/connect-to-palantir-foundry/,admin_guide,latest,Connect to Palantir Foundry,en_latest_admin_guide_a932d7_connect-to-palantir-foundry.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/ed290d/connect-to-mongodb/,admin_guide,latest,Connect to MongoDB,en_latest_admin_guide_ed290d_connect-to-mongodb.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/ccd264/connect-to-palantir-foundry/,user_guide,latest,Connect to Palantir Foundry,en_latest_user_guide_ccd264_connect-to-palantir-foundry.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/72362d/connect-to-tabular-s3-with-aws-glue/,admin_guide,latest,Connect to Tabular S3 with AWS Glue,en_latest_admin_guide_72362d_connect-to-tabular-s3-with-aws-glue.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/0fc615/connect-to-teradata/,admin_guide,latest,Connect to Teradata,en_latest_admin_guide_0fc615_connect-to-teradata.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/f32f69/connect-to-starburst-jdbc-data-entities/,admin_guide,latest,Connect to Starburst JDBC data entities,en_latest_admin_guide_f32f69_connect-to-starburst-jdbc-data-entities.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/4b6411/invite-collaborators/,user_guide,latest,Invite collaborators,en_latest_user_guide_4b6411_invite-collaborators.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/71afc6/set-project-visibility/,user_guide,latest,Set Project visibility,en_latest_user_guide_71afc6_set-project-visibility.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/26332c/collaborator-permissions/,user_guide,latest,Collaborator permissions,en_latest_user_guide_26332c_collaborator-permissions.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/673577/scheduled-jobs/,user_guide,latest,Scheduled Jobs,en_latest_user_guide_673577_scheduled-jobs.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/d82ba3/share-and-collaborate-on-projects/,user_guide,latest,Share and collaborate on Projects,en_latest_user_guide_d82ba3_share-and-collaborate-on-projects.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/73f635/set-custom-execution-notifications/,user_guide,latest,Set custom execution notifications,en_latest_user_guide_73f635_set-custom-execution-notifications.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/cb1d07/set-project-visibility/,user_guide,latest,Set Project visibility,en_latest_user_guide_cb1d07_set-project-visibility.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/de1f88/save-artifacts-to-the-domino-file-system/,user_guide,latest,Save artifacts to the Domino File System,en_latest_user_guide_de1f88_save-artifacts-to-the-domino-file-system.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/3ae0a8/execution-notifications/,user_guide,latest,Execution notifications,en_latest_user_guide_3ae0a8_execution-notifications.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/a8b4c4/deploy-your-model/,user_guide,latest,Deploy Your Model,en_latest_user_guide_a8b4c4_deploy-your-model.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/d003a0/get-started-with-matlab/,user_guide,latest,Get Started with MATLAB,en_latest_user_guide_d003a0_get-started-with-matlab.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/ac5c29/launchers/,user_guide,latest,Launchers,en_latest_user_guide_ac5c29_launchers.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/c3d953/working-with-datasets/,user_guide,latest,Working with Datasets,en_latest_user_guide_c3d953_working-with-datasets.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/b1d21e/clean-up-your-workspace/,user_guide,latest,Clean up your Workspace,en_latest_user_guide_b1d21e_clean-up-your-workspace.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/45a2e6/fetch-and-save-your-data/,user_guide,latest,Fetch and save your data,en_latest_user_guide_45a2e6_fetch-and-save-your-data.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/04e21f/develop-your-model/,user_guide,latest,Develop your model,en_latest_user_guide_04e21f_develop-your-model.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/bfda3d/start-a-matlab-workspace/,user_guide,latest,Start a MATLAB Workspace,en_latest_user_guide_bfda3d_start-a-matlab-workspace.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/38fd0e/configure-your-project/,user_guide,latest,Configure your Project,en_latest_user_guide_38fd0e_configure-your-project.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/d00413/create-a-project/,user_guide,latest,Create a Project,en_latest_user_guide_d00413_create-a-project.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/dba65c/set-project-settings/,user_guide,latest,Set Project settings,en_latest_user_guide_dba65c_set-project-settings.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/62cf79/orient-yourself-to-domino/,user_guide,latest,Orient yourself to Domino,en_latest_user_guide_62cf79_orient-yourself-to-domino.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/716281/configure-projects/,user_guide,latest,Configure Projects,en_latest_user_guide_716281_configure-projects.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/9c3564/register-external-data-volumes/,admin_guide,latest,Register external data volumes,en_latest_admin_guide_9c3564_register-external-data-volumes.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/8590a9/rename-a-project/,user_guide,latest,Rename a Project,en_latest_user_guide_8590a9_rename-a-project.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/f9be5e/organize-projects-with-tags/,user_guide,latest,Organize Projects with tags,en_latest_user_guide_f9be5e_organize-projects-with-tags.pdf
+https://docs.dominodatalab.com/en/latest/api_guide/50ffa7/write-to-a-local-file/,api_guide,latest,Write to a local file,en_latest_api_guide_50ffa7_write-to-a-local-file.pdf
+https://docs.dominodatalab.com/en/latest/api_guide/20d551/read-write-to-an-object-store/,api_guide,latest,Read/Write to an object store,en_latest_api_guide_20d551_read-write-to-an-object-store.pdf
+https://docs.dominodatalab.com/en/latest/api_guide/40ee54/query-a-tabular-store/,api_guide,latest,Query a tabular store,en_latest_api_guide_40ee54_query-a-tabular-store.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/48afc2/data-analyst-role/,admin_guide,latest,Data Analyst role,en_latest_admin_guide_48afc2_data-analyst-role.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/7876f1/collaborator-permissions/,user_guide,latest,Collaborator permissions,en_latest_user_guide_7876f1_collaborator-permissions.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/de48cc/manage-users/,admin_guide,latest,Manage users,en_latest_admin_guide_de48cc_manage-users.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/0ed610/get-your-files-and-data/,user_guide,latest,Get your files and data,en_latest_user_guide_0ed610_get-your-files-and-data.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/b2471f/activate-users/,admin_guide,latest,Activate users,en_latest_admin_guide_b2471f_activate-users.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/6a8639/configure-data-source-authentication/,admin_guide,latest,Configure Data Source authentication,en_latest_admin_guide_6a8639_configure-data-source-authentication.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/57f42d/reset-password/,admin_guide,latest,Reset password,en_latest_admin_guide_57f42d_reset-password.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/aa19d4/email-configuration/,admin_guide,latest,Email configuration,en_latest_admin_guide_aa19d4_email-configuration.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/5358c8/access-external-data/,user_guide,latest,Access external data,en_latest_user_guide_5358c8_access-external-data.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/76e38c/domino-cloud-sso-integration/,admin_guide,latest,Domino Cloud SSO integration,en_latest_admin_guide_76e38c_domino-cloud-sso-integration.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/3d3103/access-external-data-directly/,user_guide,latest,Access external data directly,en_latest_user_guide_3d3103_access-external-data-directly.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/0e334d/single-sign-on--sso--configuration/,admin_guide,latest,Single sign-on (SSO) configuration,en_latest_admin_guide_0e334d_single-sign-on--sso--configuration.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/c1eec3/deploy-domino/,admin_guide,latest,Deploy Domino,en_latest_admin_guide_c1eec3_deploy-domino.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/e0f2ff/provision-infrastructure-and-runtime-environment/,admin_guide,latest,Provision infrastructure and runtime Environment,en_latest_admin_guide_e0f2ff_provision-infrastructure-and-runtime-environment.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/4ff9e1/prepare-to-install/,admin_guide,latest,Prepare to install,en_latest_admin_guide_4ff9e1_prepare-to-install.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/91566e/aws-deployment-architecture/,admin_guide,latest,AWS deployment architecture,en_latest_admin_guide_91566e_aws-deployment-architecture.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/9b43ee/ldap---ad-federation/,admin_guide,latest,LDAP / AD federation,en_latest_admin_guide_9b43ee_ldap---ad-federation.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/1a7dfa/keycloak-set-up/,admin_guide,latest,Keycloak set up,en_latest_admin_guide_1a7dfa_keycloak-set-up.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/5b332c/project-organization/,user_guide,latest,Project organization,en_latest_user_guide_5b332c_project-organization.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/ca786d/domino-file-system-projects/,user_guide,latest,Domino File System Projects,en_latest_user_guide_ca786d_domino-file-system-projects.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/059b1c/feature-store/,user_guide,latest,Feature store,en_latest_user_guide_059b1c_feature-store.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/b8a061/revert-projects-and-files/,user_guide,latest,Revert Projects and files,en_latest_user_guide_b8a061_revert-projects-and-files.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/4b6b79/feature-store-quickstart/,user_guide,latest,Feature store quickstart,en_latest_user_guide_4b6b79_feature-store-quickstart.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/fcd594/revert-a-project/,user_guide,latest,Revert a Project,en_latest_user_guide_fcd594_revert-a-project.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/b37520/discover-and-reuse-features/,user_guide,latest,Discover and reuse features,en_latest_user_guide_b37520_discover-and-reuse-features.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/f1f203/define-and-publish-features/,user_guide,latest,Define and publish features,en_latest_user_guide_f1f203_define-and-publish-features.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/3c528d/archive-a-project/,user_guide,latest,Archive a Project,en_latest_user_guide_3c528d_archive-a-project.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/dae129/compare-file-revisions/,user_guide,latest,Compare file revisions,en_latest_user_guide_dae129_compare-file-revisions.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/bfeeae/exclude-project-files-from-sync/,user_guide,latest,Exclude Project files from sync,en_latest_user_guide_bfeeae_exclude-project-files-from-sync.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/c5fe4e/export-files-as-python-or-r-package/,user_guide,latest,Export files as Python or R package,en_latest_user_guide_c5fe4e_export-files-as-python-or-r-package.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/31abd5/download-execution-results/,user_guide,latest,Download execution results,en_latest_user_guide_31abd5_download-execution-results.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/afea00/manage-project-files/,user_guide,latest,Manage Project files,en_latest_user_guide_afea00_manage-project-files.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/77ca94/execution-results/,user_guide,latest,Execution results,en_latest_user_guide_77ca94_execution-results.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/4a6d0f/merge-projects/,user_guide,latest,Merge Projects,en_latest_user_guide_4a6d0f_merge-projects.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/e4f67f/automate-complex-pipelines-with-apache-airflow/,user_guide,latest,Automate complex pipelines with Apache Airflow,en_latest_user_guide_e4f67f_automate-complex-pipelines-with-apache-airflow.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/852449/customize-the-results-dashboard/,user_guide,latest,Customize the results dashboard,en_latest_user_guide_852449_customize-the-results-dashboard.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/ef261b/fork-projects/,user_guide,latest,Fork Projects,en_latest_user_guide_ef261b_fork-projects.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/a834bb/organize-domino-file-system-project-assets/,user_guide,latest,Organize Domino File System Project assets,en_latest_user_guide_a834bb_organize-domino-file-system-project-assets.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/de4abb/domino-file-system/,user_guide,latest,Domino File System,en_latest_user_guide_de4abb_domino-file-system.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/d5800f/view-workspace-usage/,user_guide,latest,View Workspace usage,en_latest_user_guide_d5800f_view-workspace-usage.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/0da1e9/use-the-domino-cli-behind-a-proxy/,user_guide,latest,Use the Domino CLI behind a proxy,en_latest_user_guide_0da1e9_use-the-domino-cli-behind-a-proxy.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/9e95a5/customize-jobs-dashboard/,user_guide,latest,Customize Jobs dashboard,en_latest_user_guide_9e95a5_customize-jobs-dashboard.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/f7292e/work-with-many-files/,user_guide,latest,Work with many files,en_latest_user_guide_f7292e_work-with-many-files.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/dbfb7c/manage-jobs/,user_guide,latest,Manage Jobs,en_latest_user_guide_dbfb7c_manage-jobs.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/2e25bb/manage-and-view-jobs-with-the-jobs-dashboard/,user_guide,latest,Manage and view Jobs with the Jobs dashboard,en_latest_user_guide_2e25bb_manage-and-view-jobs-with-the-jobs-dashboard.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/e1c37a/monitor-job-results-for-reproducibility-and-collaboration/,user_guide,latest,Monitor Job results for reproducibility and collaboration,en_latest_user_guide_e1c37a_monitor-job-results-for-reproducibility-and-collaboration.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/288e42/develop-your-model/,user_guide,latest,Develop your model,en_latest_user_guide_288e42_develop-your-model.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/02d166/resume-a-workspace/,user_guide,latest,Resume a Workspace,en_latest_user_guide_02d166_resume-a-workspace.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/da707d/track-and-monitor-experiments/,user_guide,latest,Track and monitor experiments,en_latest_user_guide_da707d_track-and-monitor-experiments.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/9f10c9/deploy-your-model/,user_guide,latest,Deploy your model,en_latest_user_guide_9f10c9_deploy-your-model.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/dd6c5d/scale-distributed-workloads/,user_guide,latest,Scale distributed workloads,en_latest_user_guide_dd6c5d_scale-distributed-workloads.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/e92082/publish-a-shiny-app/,user_guide,latest,Publish a Shiny App,en_latest_user_guide_e92082_publish-a-shiny-app.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/874b46/tune-hyperparameters-with-ray-tune/,user_guide,latest,Tune hyperparameters with Ray Tune,en_latest_user_guide_874b46_tune-hyperparameters-with-ray-tune.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/402c65/configure-mpi-prerequisites/,user_guide,latest,Configure MPI prerequisites,en_latest_user_guide_402c65_configure-mpi-prerequisites.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/3e137b/configure-prerequisites/,user_guide,latest,Configure prerequisites,en_latest_user_guide_3e137b_configure-prerequisites.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/85ae58/manage-dependencies/,user_guide,latest,Manage dependencies,en_latest_user_guide_85ae58_manage-dependencies.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/d60880/distributed-gpus-with-open-mpi/,user_guide,latest,Distributed GPUs with Open MPI,en_latest_user_guide_d60880_distributed-gpus-with-open-mpi.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/3dcdb2/manage-dependencies/,user_guide,latest,Manage dependencies,en_latest_user_guide_3dcdb2_manage-dependencies.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/1962f3/configure-prerequisites/,user_guide,latest,Configure prerequisites,en_latest_user_guide_1962f3_configure-prerequisites.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/2039f2/publish-a-flask-app/,user_guide,latest,Publish a Flask App,en_latest_user_guide_2039f2_publish-a-flask-app.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/146b80/manage-dependencies/,user_guide,latest,Manage dependencies,en_latest_user_guide_146b80_manage-dependencies.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/c5ce58/get-started-with-r/,user_guide,latest,Get started with R,en_latest_user_guide_c5ce58_get-started-with-r.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/9a69d9/get-started-with-python/,user_guide,latest,Get started with Python,en_latest_user_guide_9a69d9_get-started-with-python.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/731fd1/deploy-your-model/,user_guide,latest,Deploy your model,en_latest_user_guide_731fd1_deploy-your-model.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/fb9e32/clean-up-workspaces/,user_guide,latest,Clean up Workspaces,en_latest_user_guide_fb9e32_clean-up-workspaces.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/68ddd0/configure-your-project/,user_guide,latest,Configure your Project,en_latest_user_guide_68ddd0_configure-your-project.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/d24d82/create-a-project/,user_guide,latest,Create a Project,en_latest_user_guide_d24d82_create-a-project.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/bc1c6d/orient-yourself-to-domino/,user_guide,latest,Orient yourself to Domino,en_latest_user_guide_bc1c6d_orient-yourself-to-domino.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/118efa/clean-up-workspaces/,user_guide,latest,Clean up Workspaces,en_latest_user_guide_118efa_clean-up-workspaces.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/d8138c/develop-your-model/,user_guide,latest,Develop your model,en_latest_user_guide_d8138c_develop-your-model.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/a177dd/get-your-files-and-data/,user_guide,latest,Get your files and data,en_latest_user_guide_a177dd_get-your-files-and-data.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/9b7b29/configure-your-project/,user_guide,latest,Configure your Project,en_latest_user_guide_9b7b29_configure-your-project.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/ccba8f/create-a-project/,user_guide,latest,Create a Project,en_latest_user_guide_ccba8f_create-a-project.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/90bd70/orient-yourself-to-domino/,user_guide,latest,Orient yourself to Domino,en_latest_user_guide_90bd70_orient-yourself-to-domino.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/0ea71e/change-the-workspace-volume-size/,user_guide,latest,Change the Workspace volume size,en_latest_user_guide_0ea71e_change-the-workspace-volume-size.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/d6c084/commit-and-push-changes-to-your-git-repository/,user_guide,latest,Commit and push changes to your Git repository,en_latest_user_guide_d6c084_commit-and-push-changes-to-your-git-repository.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/a86443/workspace-settings/,user_guide,latest,Workspace settings,en_latest_user_guide_a86443_workspace-settings.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/262fef/sync-changes/,user_guide,latest,Sync changes,en_latest_user_guide_262fef_sync-changes.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/815d95/configure-long-running-workspaces/,user_guide,latest,Configure long-running Workspaces,en_latest_user_guide_815d95_configure-long-running-workspaces.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/21bde1/edit-workspace-settings/,user_guide,latest,Edit Workspace settings,en_latest_user_guide_21bde1_edit-workspace-settings.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/029c37/revert-a-file/,user_guide,latest,Revert a file,en_latest_user_guide_029c37_revert-a-file.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/7a0fee/upload-files-to-domino/,user_guide,latest,Upload files to Domino,en_latest_user_guide_7a0fee_upload-files-to-domino.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/164503/view-workspace-logs/,user_guide,latest,View Workspace logs,en_latest_user_guide_164503_view-workspace-logs.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/a9e507/application-execution-logs/,admin_guide,latest,Application execution logs,en_latest_admin_guide_a9e507_application-execution-logs.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/b51a09/resolve-conflicts-manually/,user_guide,latest,Resolve conflicts manually,en_latest_user_guide_b51a09_resolve-conflicts-manually.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/e34be1/project-audit-logs/,admin_guide,latest,Project audit logs,en_latest_admin_guide_e34be1_project-audit-logs.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/27e04d/resolve-merge-conflicts/,user_guide,latest,Resolve merge conflicts,en_latest_user_guide_27e04d_resolve-merge-conflicts.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/f5934f/data-source-audit-logs/,admin_guide,latest,Data Source audit logs,en_latest_admin_guide_f5934f_data-source-audit-logs.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/12e54b/support-bundles/,admin_guide,latest,Support Bundles,en_latest_admin_guide_12e54b_support-bundles.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/373d37/manage-project-file-storage/,admin_guide,latest,Manage Project file storage,en_latest_admin_guide_373d37_manage-project-file-storage.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/48cc4e/change-branches-in-the-workspace/,user_guide,latest,Change branches in the Workspace,en_latest_user_guide_48cc4e_change-branches-in-the-workspace.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/26c944/delete-file-instances/,admin_guide,latest,Delete file instances,en_latest_admin_guide_26c944_delete-file-instances.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/fbb41f/data-source-connectors/,user_guide,latest,Data Source Connectors,en_latest_user_guide_fbb41f_data-source-connectors.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/0a8d11/create-and-modify-datasets/,user_guide,latest,Create and modify Datasets,en_latest_user_guide_0a8d11_create-and-modify-datasets.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/93aef2/start-a-workspace/,user_guide,latest,Start a Workspace,en_latest_user_guide_93aef2_start-a-workspace.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/b83660/connect-to-okera/,user_guide,latest,Connect to Okera,en_latest_user_guide_b83660_connect-to-okera.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/9c819c/manage-large-datasets-or-project-files/,user_guide,latest,Manage large Datasets or Project files,en_latest_user_guide_9c819c_manage-large-datasets-or-project-files.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/6be870/delete-datasets-and-snapshots/,admin_guide,latest,Delete Datasets and snapshots,en_latest_admin_guide_6be870_delete-datasets-and-snapshots.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/bc084f/set-limits-on-dataset-usage/,admin_guide,latest,Set limits on Dataset usage,en_latest_admin_guide_bc084f_set-limits-on-dataset-usage.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/ae1654/manage-domino-datasets/,admin_guide,latest,Manage Domino Datasets,en_latest_admin_guide_ae1654_manage-domino-datasets.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/f200d6/connect-to-impala/,user_guide,latest,Connect to Impala,en_latest_user_guide_f200d6_connect-to-impala.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/452cff/connect-to-datarobot/,user_guide,latest,Connect to DataRobot,en_latest_user_guide_452cff_connect-to-datarobot.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/22474d/connect-to-starburst-trino/,user_guide,latest,Connect to Starburst/Trino,en_latest_user_guide_22474d_connect-to-starburst-trino.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/4c1129/connect-to-teradata/,user_guide,latest,Connect to Teradata,en_latest_user_guide_4c1129_connect-to-teradata.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/d4ef2b/connect-to-snowflake/,user_guide,latest,Connect to Snowflake,en_latest_user_guide_d4ef2b_connect-to-snowflake.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/f095e7/connect-to-postgresql/,user_guide,latest,Connect to PostgreSQL,en_latest_user_guide_f095e7_connect-to-postgresql.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/77bf79/connect-to-oracle-database/,user_guide,latest,Connect to Oracle Database,en_latest_user_guide_77bf79_connect-to-oracle-database.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/69b09a/connect-to-mysql/,user_guide,latest,Connect to MySQL,en_latest_user_guide_69b09a_connect-to-mysql.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/634c13/connect-to-mssql/,user_guide,latest,Connect to MSSQL,en_latest_user_guide_634c13_connect-to-mssql.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/cadeb5/connect-to-mongodb/,user_guide,latest,Connect to MongoDB,en_latest_user_guide_cadeb5_connect-to-mongodb.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/a6daac/connect-to-bigquery/,user_guide,latest,Connect to BigQuery,en_latest_user_guide_a6daac_connect-to-bigquery.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/95d78a/connect-to-google-cloud-storage/,user_guide,latest,Connect to Google Cloud Storage,en_latest_user_guide_95d78a_connect-to-google-cloud-storage.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/63393f/connect-to-databricks/,user_guide,latest,Connect to Databricks,en_latest_user_guide_63393f_connect-to-databricks.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/3ca4ff/connect-to-azure-blob-storage/,user_guide,latest,Connect to Azure Blob Storage,en_latest_user_guide_3ca4ff_connect-to-azure-blob-storage.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/06b9bd/connect-to-azure-data-lake-storage/,user_guide,latest,Connect to Azure Data Lake Storage,en_latest_user_guide_06b9bd_connect-to-azure-data-lake-storage.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/37a0a6/connect-to-amazon-s3-tabular-with-aws-glue/,user_guide,latest,Connect to Amazon S3 Tabular with AWS Glue,en_latest_user_guide_37a0a6_connect-to-amazon-s3-tabular-with-aws-glue.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/947ddd/connect-to-generic-s3/,user_guide,latest,Connect to Generic S3,en_latest_user_guide_947ddd_connect-to-generic-s3.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/444abc/connect-to-redshift/,user_guide,latest,Connect to Redshift,en_latest_user_guide_444abc_connect-to-redshift.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/064d93/start-a-workspace/,user_guide,latest,Start a Workspace,en_latest_user_guide_064d93_start-a-workspace.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/13a1a4/view-the-status-of-all-projects/,admin_guide,latest,View the status of all Projects,en_latest_admin_guide_13a1a4_view-the-status-of-all-projects.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/c59589/invite-collaborators/,user_guide,latest,Invite collaborators,en_latest_user_guide_c59589_invite-collaborators.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/06ceeb/add-comments/,user_guide,latest,Add comments,en_latest_user_guide_06ceeb_add-comments.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/ae32e7/set-notification-preferences/,user_guide,latest,Set notification preferences,en_latest_user_guide_ae32e7_set-notification-preferences.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/0002fb/view-workspaces/,user_guide,latest,View Workspaces,en_latest_user_guide_0002fb_view-workspaces.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/6e50e8/view-user-activity/,admin_guide,latest,View user activity,en_latest_admin_guide_6e50e8_view-user-activity.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/7bb387/view-platform-and-compute-nodes-details/,admin_guide,latest,View platform and compute nodes details,en_latest_admin_guide_7bb387_view-platform-and-compute-nodes-details.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/eb97ae/view-active-executions/,admin_guide,latest,View active executions,en_latest_admin_guide_eb97ae_view-active-executions.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/eca4b2/manage-compute-resources/,admin_guide,latest,Manage compute resources,en_latest_admin_guide_eca4b2_manage-compute-resources.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/2722ce/run-a-manual--on-demand-backup/,admin_guide,latest,"Run a manual, on-demand backup",en_latest_admin_guide_2722ce_run-a-manual--on-demand-backup.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/cd38c2/manage-persistent-volumes/,admin_guide,latest,Manage persistent volumes,en_latest_admin_guide_cd38c2_manage-persistent-volumes.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/c35738/backup-location/,admin_guide,latest,Backup location,en_latest_admin_guide_c35738_backup-location.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/fb7da2/node-pools-and-nodes/,admin_guide,latest,Node pools and nodes,en_latest_admin_guide_fb7da2_node-pools-and-nodes.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/2359da/use-intel-habana-accelerators/,admin_guide,latest,Use Intel Habana accelerators,en_latest_admin_guide_2359da_use-intel-habana-accelerators.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/808704/manage-long-running-workloads/,admin_guide,latest,Manage long-running workloads,en_latest_admin_guide_808704_manage-long-running-workloads.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/7965b6/remove-a-node-from-service/,admin_guide,latest,Remove a node from service,en_latest_admin_guide_7965b6_remove-a-node-from-service.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/3813fa/add-a-node-pool/,admin_guide,latest,Add a node pool,en_latest_admin_guide_3813fa_add-a-node-pool.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/526762/user-executions-quota/,admin_guide,latest,User executions quota,en_latest_admin_guide_526762_user-executions-quota.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/908bd9/hardware-tier-best-practices/,admin_guide,latest,Hardware tier best practices,en_latest_admin_guide_908bd9_hardware-tier-best-practices.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/fa4fa3/execution-queue-limits/,admin_guide,latest,Execution queue limits,en_latest_admin_guide_fa4fa3_execution-queue-limits.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/3854c7/scale-compute-capacity/,admin_guide,latest,Scale compute capacity,en_latest_admin_guide_3854c7_scale-compute-capacity.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/9d16e5/create-a-hardware-tier/,admin_guide,latest,Create a hardware tier,en_latest_admin_guide_9d16e5_create-a-hardware-tier.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/a3ed46/size-the-domino-platform/,admin_guide,latest,Size the Domino Platform,en_latest_admin_guide_a3ed46_size-the-domino-platform.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/7b2cbe/kubernetes-compatibility/,admin_guide,latest,Kubernetes compatibility,en_latest_admin_guide_7b2cbe_kubernetes-compatibility.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/33c18d/standard-domino-platform/,admin_guide,latest,Standard Domino Platform,en_latest_admin_guide_33c18d_standard-domino-platform.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/2941b1/size-the-infrastructure/,admin_guide,latest,Size the Infrastructure,en_latest_admin_guide_2941b1_size-the-infrastructure.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/6838b2/fleetcommand-agent-install-sh-downloads/,admin_guide,latest,fleetcommand-agent-install.sh Downloads,en_latest_admin_guide_6838b2_fleetcommand-agent-install-sh-downloads.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/bfd8e5/asynchronous-model-apis-capacity-planning/,admin_guide,latest,Asynchronous Model APIs capacity planning,en_latest_admin_guide_bfd8e5_asynchronous-model-apis-capacity-planning.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/559046/fleetcommand-agent-release-notes/,admin_guide,latest,fleetcommand-agent Release Notes,en_latest_admin_guide_559046_fleetcommand-agent-release-notes.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/25b6dc/cluster-requirements/,admin_guide,latest,Cluster requirements,en_latest_admin_guide_25b6dc_cluster-requirements.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/f11f6a/work-with-your-cluster/,user_guide,latest,Work with your cluster,en_latest_user_guide_f11f6a_work-with-your-cluster.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/3fb861/domino-on-openshift/,admin_guide,latest,Domino on OpenShift,en_latest_admin_guide_3fb861_domino-on-openshift.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/b5da89/domino-on-eks/,admin_guide,latest,Domino on EKS,en_latest_admin_guide_b5da89_domino-on-eks.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/0e34ae/on-premises-services/,admin_guide,latest,On-premises services,en_latest_admin_guide_0e34ae_on-premises-services.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/d9c9ff/cloud-services/,admin_guide,latest,Cloud services,en_latest_admin_guide_d9c9ff_cloud-services.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/4caa42/custom-certificates/,admin_guide,latest,Custom certificates,en_latest_admin_guide_4caa42_custom-certificates.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/6e290a/domino-on-gke/,admin_guide,latest,Domino on GKE,en_latest_admin_guide_6e290a_domino-on-gke.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/7d0b3e/domino-on-aks/,admin_guide,latest,Domino on AKS,en_latest_admin_guide_7d0b3e_domino-on-aks.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/d13903/on-demand-ray/,user_guide,latest,On-demand Ray,en_latest_user_guide_d13903_on-demand-ray.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/c50248/work-with-your-cluster/,user_guide,latest,Work with your cluster,en_latest_user_guide_c50248_work-with-your-cluster.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/314004/import-git-repositories/,user_guide,latest,Import Git repositories,en_latest_user_guide_314004_import-git-repositories.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/eb09fa/configure-censorship/,admin_guide,latest,Configure censorship,en_latest_admin_guide_eb09fa_configure-censorship.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/ee8d01/add-edvs-to-projects/,user_guide,latest,Add EDVs to Projects,en_latest_user_guide_ee8d01_add-edvs-to-projects.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/acd236/resolve-merge-conflicts/,user_guide,latest,Resolve merge conflicts,en_latest_user_guide_acd236_resolve-merge-conflicts.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/74f8ed/remediate-a-model-api/,user_guide,latest,Remediate a Model API,en_latest_user_guide_74f8ed_remediate-a-model-api.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/eaab17/create-a-git-based-project/,user_guide,latest,Create a Git-based Project,en_latest_user_guide_eaab17_create-a-git-based-project.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/910370/git-based-projects/,user_guide,latest,Git-based Projects,en_latest_user_guide_910370_git-based-projects.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/d8e27b/review-the-cohort-analysis/,user_guide,latest,Review the Cohort Analysis,en_latest_user_guide_d8e27b_review-the-cohort-analysis.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/5d0521/organize-git-based-project-assets/,user_guide,latest,Organize Git-based Project assets,en_latest_user_guide_5d0521_organize-git-based-project-assets.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/4f5b2a/set-up-multiple-storage-accounts/,admin_guide,latest,Set up multiple storage accounts,en_latest_admin_guide_4f5b2a_set-up-multiple-storage-accounts.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/157618/analyze-costs/,admin_guide,latest,Analyze costs,en_latest_admin_guide_157618_analyze-costs.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/747a51/on-demand-dask/,user_guide,latest,On-demand Dask,en_latest_user_guide_747a51_on-demand-dask.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/06e4c2/budgets-and-alerts/,admin_guide,latest,Budgets and alerts,en_latest_admin_guide_06e4c2_budgets-and-alerts.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/624992/set-up-domino-finops/,admin_guide,latest,Set up Domino FinOps,en_latest_admin_guide_624992_set-up-domino-finops.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/aaa2c1/work-with-clusters/,user_guide,latest,Work with clusters,en_latest_user_guide_aaa2c1_work-with-clusters.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/e6e601/launch-a-workspace/,user_guide,latest,Launch a Workspace,en_latest_user_guide_e6e601_launch-a-workspace.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/a1b168/snowflake-queries/,user_guide,latest,Snowflake queries,en_latest_user_guide_a1b168_snowflake-queries.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/5cef47/export-models-to-nvidia-fleet-command/,user_guide,latest,Export models to NVIDIA Fleet Command,en_latest_user_guide_5cef47_export-models-to-nvidia-fleet-command.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/02ec6d/export-models-to-sagemaker/,user_guide,latest,Export models to SageMaker,en_latest_user_guide_02ec6d_export-models-to-sagemaker.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/ba503b/integrated-deployment-to-ci-cd-workflows/,user_guide,latest,Integrated deployment to CI/CD workflows,en_latest_user_guide_ba503b_integrated-deployment-to-ci-cd-workflows.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/cc299e/project-assets/,user_guide,latest,Project assets,en_latest_user_guide_cc299e_project-assets.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/5dce1f/schedule-jobs/,user_guide,latest,Schedule Jobs,en_latest_user_guide_5dce1f_schedule-jobs.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/d42ae6/use-monitoring/,user_guide,latest,Use monitoring,en_latest_user_guide_d42ae6_use-monitoring.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/594e3c/work-with-your-cluster/,user_guide,latest,Work with your cluster,en_latest_user_guide_594e3c_work-with-your-cluster.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/0d2247/use-git-in-your-workspace/,user_guide,latest,Use Git in your Workspace,en_latest_user_guide_0d2247_use-git-in-your-workspace.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/aec000/whitelist-resources/,user_guide,latest,Whitelist resources,en_latest_user_guide_aec000_whitelist-resources.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/055b74/support-bundles/,user_guide,latest,Support bundles,en_latest_user_guide_055b74_support-bundles.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/7f4331/install-configuration-reference/,admin_guide,latest,Install configuration reference,en_latest_admin_guide_7f4331_install-configuration-reference.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/a29497/app-scalability-and-performance/,user_guide,latest,App scalability and performance,en_latest_user_guide_a29497_app-scalability-and-performance.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/80328c/contact-technical-support/,user_guide,latest,Contact technical support,en_latest_user_guide_80328c_contact-technical-support.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/dafa95/encryption-in-transit/,admin_guide,latest,Encryption in transit,en_latest_admin_guide_dafa95_encryption-in-transit.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/0a8782/get-domino-version/,user_guide,latest,Get Domino version,en_latest_user_guide_0a8782_get-domino-version.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/741fc7/troubleshooting/,admin_guide,latest,Troubleshooting,en_latest_admin_guide_741fc7_troubleshooting.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/141306/disaster-recovery/,admin_guide,latest,Disaster recovery,en_latest_admin_guide_141306_disaster-recovery.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/8b645f/data-sources-troubleshooting/,admin_guide,latest,Data sources troubleshooting,en_latest_admin_guide_8b645f_data-sources-troubleshooting.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/b4c15f/distributed-model-monitoring-troubleshooting/,admin_guide,latest,Distributed model monitoring troubleshooting,en_latest_admin_guide_b4c15f_distributed-model-monitoring-troubleshooting.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/d0b4a6/model-api-troubleshooting/,admin_guide,latest,Model API troubleshooting,en_latest_admin_guide_d0b4a6_model-api-troubleshooting.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/16d1e2/compute-environment-build-troubleshooting/,admin_guide,latest,Compute environment build troubleshooting,en_latest_admin_guide_16d1e2_compute-environment-build-troubleshooting.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/4482de/workspaces-and-jobs-troubleshooting/,admin_guide,latest,Workspaces and Jobs troubleshooting,en_latest_admin_guide_4482de_workspaces-and-jobs-troubleshooting.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/44c8d9/connectivity-and-latency-troubleshooting/,admin_guide,latest,Connectivity and latency troubleshooting,en_latest_admin_guide_44c8d9_connectivity-and-latency-troubleshooting.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/db0568/basic-domino-health/,admin_guide,latest,Basic Domino health,en_latest_admin_guide_db0568_basic-domino-health.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/d5d2ac/control-center/,admin_guide,latest,Control Center,en_latest_admin_guide_d5d2ac_control-center.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/785186/audit-trail-and-execution-logs/,admin_guide,latest,Audit trail and execution logs,en_latest_admin_guide_785186_audit-trail-and-execution-logs.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/d4b465/monitor-and-reduce-your-spend/,admin_guide,latest,Monitor and reduce your spend,en_latest_admin_guide_d4b465_monitor-and-reduce-your-spend.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/d30657/monitor-domino-and-infrastructure/,admin_guide,latest,Monitor Domino and infrastructure,en_latest_admin_guide_d30657_monitor-domino-and-infrastructure.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/bf8b6c/environments/,admin_guide,latest,Environments,en_latest_admin_guide_bf8b6c_environments.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/ba9786/notifications/,admin_guide,latest,Notifications,en_latest_admin_guide_ba9786_notifications.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/91b540/models/,admin_guide,latest,Models,en_latest_admin_guide_91b540_models.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/b889e6/event-notifications/,user_guide,latest,Event notifications,en_latest_user_guide_b889e6_event-notifications.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/9dece2/scale-python-model-apis/,admin_guide,latest,Scale Python Model APIs,en_latest_admin_guide_9dece2_scale-python-model-apis.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/16cd89/model-monitoring-notifications/,admin_guide,latest,Model Monitoring notifications,en_latest_admin_guide_16cd89_model-monitoring-notifications.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/e4748e/notifications/,user_guide,latest,Notifications,en_latest_user_guide_e4748e_notifications.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/352624/manage-data/,admin_guide,latest,Manage data,en_latest_admin_guide_352624_manage-data.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/db2820/set-notifications-for-long-running-jobs-and-workspaces/,user_guide,latest,Set notifications for long-running Jobs and Workspaces,en_latest_user_guide_db2820_set-notifications-for-long-running-jobs-and-workspaces.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/5781ea/data-planes/,admin_guide,latest,Data Planes,en_latest_admin_guide_5781ea_data-planes.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/08d4b4/projects/,admin_guide,latest,Projects,en_latest_admin_guide_08d4b4_projects.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/8557f9/monitor-data-planes/,admin_guide,latest,Monitor Data Planes,en_latest_admin_guide_8557f9_monitor-data-planes.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/6af182/install-a-data-plane-offline/,admin_guide,latest,Install a Data Plane offline,en_latest_admin_guide_6af182_install-a-data-plane-offline.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/bb077c/change-the-default-project-for-new-users/,admin_guide,latest,Change the default Project for new users,en_latest_admin_guide_bb077c_change-the-default-project-for-new-users.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/6cde3a/configure-project-stages/,admin_guide,latest,Configure Project stages,en_latest_admin_guide_6cde3a_configure-project-stages.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/130dd3/upgrade-a-data-plane/,admin_guide,latest,Upgrade a Data Plane,en_latest_admin_guide_130dd3_upgrade-a-data-plane.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/1f1064/project-stages/,user_guide,latest,Project stages,en_latest_user_guide_1f1064_project-stages.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/c7f87f/disable-file-sync-on-a-data-plane/,admin_guide,latest,Disable File Sync on a Data Plane,en_latest_admin_guide_c7f87f_disable-file-sync-on-a-data-plane.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/f3cafc/project-tracking/,user_guide,latest,Project tracking,en_latest_user_guide_f3cafc_project-tracking.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/2dde11/archive-a-data-plane/,admin_guide,latest,Archive a Data Plane,en_latest_admin_guide_2dde11_archive-a-data-plane.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/40f92c/integrate-jira/,user_guide,latest,Integrate Jira,en_latest_user_guide_40f92c_integrate-jira.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/1b34b6/archive-a-hardware-tier/,admin_guide,latest,Archive a hardware tier,en_latest_admin_guide_1b34b6_archive-a-hardware-tier.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/a6aafd/delete-a-workspace/,user_guide,latest,Delete a Workspace,en_latest_user_guide_a6aafd_delete-a-workspace.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/a7420a/view-project-activity/,user_guide,latest,View Project activity,en_latest_user_guide_a7420a_view-project-activity.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/11693a/promote-projects-to-production/,user_guide,latest,Promote Projects to production,en_latest_user_guide_11693a_promote-projects-to-production.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/4e60ef/project-goals/,user_guide,latest,Project goals,en_latest_user_guide_4e60ef_project-goals.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/129510/project-status/,user_guide,latest,Project status,en_latest_user_guide_129510_project-status.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/37fdfa/hardware-tiers-for-data-planes/,admin_guide,latest,Hardware tiers for Data Planes,en_latest_admin_guide_37fdfa_hardware-tiers-for-data-planes.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/f2877a/edit-a-data-plane/,admin_guide,latest,Edit a Data Plane,en_latest_admin_guide_f2877a_edit-a-data-plane.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/ce0927/register-a-data-plane/,admin_guide,latest,Register a Data Plane,en_latest_admin_guide_ce0927_register-a-data-plane.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/3539d1/user-authentication-and-authorization/,admin_guide,latest,User authentication and authorization,en_latest_admin_guide_3539d1_user-authentication-and-authorization.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/c91e77/security-and-compliance/,admin_guide,latest,Security and compliance,en_latest_admin_guide_c91e77_security-and-compliance.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/4bb6a6/installation/,admin_guide,latest,Installation,en_latest_admin_guide_4bb6a6_installation.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/900572/submit-general-data-protection-regulation--gdpr--requests/,admin_guide,latest,Submit General Data Protection Regulation (GDPR) Requests,en_latest_admin_guide_900572_submit-general-data-protection-regulation--gdpr--requests.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/b17084/troubleshoot-installation/,admin_guide,latest,Troubleshoot installation,en_latest_admin_guide_b17084_troubleshoot-installation.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/8d3953/set-up-custom-certificates/,admin_guide,latest,Set up custom certificates,en_latest_admin_guide_8d3953_set-up-custom-certificates.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/9b2d0b/tanzu-deployments/,admin_guide,latest,Tanzu deployments,en_latest_admin_guide_9b2d0b_tanzu-deployments.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/77bb0e/domino-custom-certificates-configmap/,admin_guide,latest,Domino-custom-certificates ConfigMap,en_latest_admin_guide_77bb0e_domino-custom-certificates-configmap.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/655b8f/deploy-domino/,admin_guide,latest,Deploy Domino,en_latest_admin_guide_655b8f_deploy-domino.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/9faec6/provision-infrastructure/,admin_guide,latest,Provision Infrastructure,en_latest_admin_guide_9faec6_provision-infrastructure.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/35756f/prepare-to-install/,admin_guide,latest,Prepare to Install,en_latest_admin_guide_35756f_prepare-to-install.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/76ca96/tanzu-deployment-architecture/,admin_guide,latest,Tanzu deployment architecture,en_latest_admin_guide_76ca96_tanzu-deployment-architecture.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/cb1049/kubernetes-pod-security/,admin_guide,latest,Kubernetes pod security,en_latest_admin_guide_cb1049_kubernetes-pod-security.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/97ba97/domino-infrastructure/,admin_guide,latest,Domino Infrastructure,en_latest_admin_guide_97ba97_domino-infrastructure.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/a0b173/architecture/,admin_guide,latest,Architecture,en_latest_admin_guide_a0b173_architecture.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/666338/pod-security-policies/,admin_guide,latest,Pod Security Policies,en_latest_admin_guide_666338_pod-security-policies.pdf
+https://docs.dominodatalab.com/en/latest/admin_guide/e85a92/about-domino/,admin_guide,latest,About Domino,en_latest_admin_guide_e85a92_about-domino.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/305721/work-with-local-data/,user_guide,latest,Work with local data,en_latest_user_guide_305721_work-with-local-data.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/dbdbff/version-data-with-snapshots/,user_guide,latest,Version data with Snapshots,en_latest_user_guide_dbdbff_version-data-with-snapshots.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/6942ab/use-datasets-and-snapshots/,user_guide,latest,Use Datasets and Snapshots,en_latest_user_guide_6942ab_use-datasets-and-snapshots.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/cc8a91/send-feedback/,user_guide,latest,Send feedback,en_latest_user_guide_cc8a91_send-feedback.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/e3c6d4/additional-resources/,user_guide,latest,Additional resources,en_latest_user_guide_e3c6d4_additional-resources.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/88cefb/get-help/,user_guide,latest,Get help,en_latest_user_guide_88cefb_get-help.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/85722a/troubleshooting/,user_guide,latest,Troubleshooting,en_latest_user_guide_85722a_troubleshooting.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/30b067/domino-cli/,user_guide,latest,Domino CLI,en_latest_user_guide_30b067_domino-cli.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/06c881/troubleshoot-domino-models/,user_guide,latest,Troubleshoot Domino Models,en_latest_user_guide_06c881_troubleshoot-domino-models.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/dbae6b/move-a-project-between-deployments/,user_guide,latest,Move a Project between deployments,en_latest_user_guide_dbae6b_move-a-project-between-deployments.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/3ab378/force-restore-a-local-project/,user_guide,latest,Force-restore a local Project,en_latest_user_guide_3ab378_force-restore-a-local-project.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/8ec1ce/download-files-with-the-cli/,user_guide,latest,Download files with the CLI,en_latest_user_guide_8ec1ce_download-files-with-the-cli.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/40b91f/domino-api/,user_guide,latest,Domino API,en_latest_user_guide_40b91f_domino-api.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/526a62/organizations/,user_guide,latest,Organizations,en_latest_user_guide_526a62_organizations.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/15fccb/secure-credential-store/,user_guide,latest,Secure credential store,en_latest_user_guide_15fccb_secure-credential-store.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/6ac5a1/environment-variables/,user_guide,latest,Environment variables,en_latest_user_guide_6ac5a1_environment-variables.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/f4e1e3/launchers/,user_guide,latest,Launchers,en_latest_user_guide_f4e1e3_launchers.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/4474ab/executions/,user_guide,latest,Executions,en_latest_user_guide_4474ab_executions.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/f51038/environments/,user_guide,latest,Environments,en_latest_user_guide_f51038_environments.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/b4cb04/execution-states/,user_guide,latest,Execution states,en_latest_user_guide_b4cb04_execution-states.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/942549/jobs/,user_guide,latest,Jobs,en_latest_user_guide_942549_jobs.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/76dfbc/collaborate/,user_guide,latest,Collaborate,en_latest_user_guide_76dfbc_collaborate.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/a068c1/supported-job-types/,user_guide,latest,Supported Job types,en_latest_user_guide_a068c1_supported-job-types.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/e83d28/reuse-work/,user_guide,latest,Reuse work,en_latest_user_guide_e83d28_reuse-work.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/a8e081/projects/,user_guide,latest,Projects,en_latest_user_guide_a8e081_projects.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/0937fe/set-up-imports/,user_guide,latest,Set up imports,en_latest_user_guide_0937fe_set-up-imports.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/299798/create-projects/,user_guide,latest,Create Projects,en_latest_user_guide_299798_create-projects.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/0dd045/set-up-exports/,user_guide,latest,Set up exports,en_latest_user_guide_0dd045_set-up-exports.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/16685e/copy-a-project/,user_guide,latest,Copy a Project,en_latest_user_guide_16685e_copy-a-project.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/123ae8/ai-project-hub-templates/,user_guide,latest,AI Project Hub templates,en_latest_user_guide_123ae8_ai-project-hub-templates.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/d9abb7/domino-search/,user_guide,latest,Domino search,en_latest_user_guide_d9abb7_domino-search.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/71635d/publish-apps/,user_guide,latest,Publish Apps,en_latest_user_guide_71635d_publish-apps.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/a96d2b/project-templates/,user_guide,latest,Project templates,en_latest_user_guide_a96d2b_project-templates.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/bb4b24/app-logs-and-version-control/,user_guide,latest,App logs and version control,en_latest_user_guide_bb4b24_app-logs-and-version-control.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/cb9195/app-security-and-identity/,user_guide,latest,App security and identity,en_latest_user_guide_cb9195_app-security-and-identity.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/9b11ea/host-html-pages/,user_guide,latest,Host HTML pages,en_latest_user_guide_9b11ea_host-html-pages.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/2c3a33/publish-a-streamlit-llm-app/,user_guide,latest,Publish a Streamlit LLM app,en_latest_user_guide_2c3a33_publish-a-streamlit-llm-app.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/de2589/publish-a-dash-app/,user_guide,latest,Publish a Dash App,en_latest_user_guide_de2589_publish-a-dash-app.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/9ebee2/stop-a-workspace/,user_guide,latest,Stop a Workspace,en_latest_user_guide_9ebee2_stop-a-workspace.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/08a85b/deploy-models/,user_guide,latest,Deploy models,en_latest_user_guide_08a85b_deploy-models.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/19df62/register-and-govern-models/,user_guide,latest,Register and govern models,en_latest_user_guide_19df62_register-and-govern-models.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/68629b/batch-scoring/,user_guide,latest,Batch scoring,en_latest_user_guide_68629b_batch-scoring.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/dfb6bc/model-governance-and-approval/,user_guide,latest,Model governance and approval,en_latest_user_guide_dfb6bc_model-governance-and-approval.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/3b6ae5/manage-models-with-model-registry/,user_guide,latest,Manage models with model registry,en_latest_user_guide_3b6ae5_manage-models-with-model-registry.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/d788b5/model-api-health-and-logs/,user_guide,latest,Model API health and logs,en_latest_user_guide_d788b5_model-api-health-and-logs.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/8c79ad/model-api-scaling-and-routing/,user_guide,latest,Model API scaling and routing,en_latest_user_guide_8c79ad_model-api-scaling-and-routing.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/88a0ef/model-api-security/,user_guide,latest,Model API security,en_latest_user_guide_88a0ef_model-api-security.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/8b4418/scale-out-distributed-computing/,user_guide,latest,Scale out distributed computing,en_latest_user_guide_8b4418_scale-out-distributed-computing.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/3afed0/develop-models/,user_guide,latest,Develop models,en_latest_user_guide_3afed0_develop-models.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/16d9c1/work-with-data/,user_guide,latest,Work with data,en_latest_user_guide_16d9c1_work-with-data.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/786d3c/develop-and-train-models/,user_guide,latest,Develop and train models,en_latest_user_guide_786d3c_develop-and-train-models.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/08a636/get-started/,user_guide,latest,Get started,en_latest_user_guide_08a636_get-started.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/d779d2/fine-tune-foundation-models--preview-/,user_guide,latest,Fine-tune Foundation Models (preview),en_latest_user_guide_d779d2_fine-tune-foundation-models--preview-.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/fd5ba4/train-a-model-with-automl/,user_guide,latest,Train a model with AutoML,en_latest_user_guide_fd5ba4_train-a-model-with-automl.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/a3381b/install-code-assist/,user_guide,latest,Install Code Assist,en_latest_user_guide_a3381b_install-code-assist.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/f7af2a/code-assist/,user_guide,latest,Code Assist,en_latest_user_guide_f7af2a_code-assist.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/95520d/domino-nexus/,user_guide,latest,Domino Nexus,en_latest_user_guide_95520d_domino-nexus.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/b40321/data-visualizations-with-code-assist/,user_guide,latest,Data visualizations with Code Assist,en_latest_user_guide_b40321_data-visualizations-with-code-assist.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/fe681b/code-assist-data-preparation/,user_guide,latest,Code Assist data preparation,en_latest_user_guide_fe681b_code-assist-data-preparation.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/a008d9/code-assist-data-access/,user_guide,latest,Code Assist data access,en_latest_user_guide_a008d9_code-assist-data-access.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/5dc7d5/domino-cloud/,user_guide,latest,Domino Cloud,en_latest_user_guide_5dc7d5_domino-cloud.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/449980/load-data-with-sql-with-code-assist/,user_guide,latest,Load data with SQL with Code Assist,en_latest_user_guide_449980_load-data-with-sql-with-code-assist.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/ff6862/load-data-from-snowflake-with-code-assist/,user_guide,latest,Load data from Snowflake with Code Assist,en_latest_user_guide_ff6862_load-data-from-snowflake-with-code-assist.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/30e92d/load-data-from-redshift-with-code-assist/,user_guide,latest,Load data from Redshift with Code Assist,en_latest_user_guide_30e92d_load-data-from-redshift-with-code-assist.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/b0bfef/load-data-from-s3-with-code-assist/,user_guide,latest,Load data from S3 with Code Assist,en_latest_user_guide_b0bfef_load-data-from-s3-with-code-assist.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/2f8d33/load-data-from-bigquery-with-code-assist/,user_guide,latest,Load Data from BigQuery with Code Assist,en_latest_user_guide_2f8d33_load-data-from-bigquery-with-code-assist.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/9bd3a1/load-data-from-csv-with-code-assist/,user_guide,latest,Load data from CSV with Code Assist,en_latest_user_guide_9bd3a1_load-data-from-csv-with-code-assist.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/7cbb3f/load-demo-data-with-code-assist/,user_guide,latest,Load demo data with Code Assist,en_latest_user_guide_7cbb3f_load-demo-data-with-code-assist.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/4d82f8/join-data-with-code-assist/,user_guide,latest,Join data with Code Assist,en_latest_user_guide_4d82f8_join-data-with-code-assist.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/6116d2/group-and-aggregate-with-code-assist/,user_guide,latest,Group and aggregate with Code Assist,en_latest_user_guide_6116d2_group-and-aggregate-with-code-assist.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/7ab3ac/column-summary-with-code-assist/,user_guide,latest,Column Summary with Code Assist,en_latest_user_guide_7ab3ac_column-summary-with-code-assist.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/0e91f3/filter-data-with-code-assist/,user_guide,latest,Filter data with Code Assist,en_latest_user_guide_0e91f3_filter-data-with-code-assist.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/71a047/overview/,user_guide,latest,Overview,en_latest_user_guide_71a047_overview.pdf
+https://docs.dominodatalab.com/en/latest/user_guide/3d2592/internal-package-hosting/,user_guide,latest,Internal package hosting,en_latest_user_guide_3d2592_internal-package-hosting.pdf
+https://docs.dominodatalab.com/en/5.7/api_guide/ad1224/domino-r-package/,api_guide,5.7,Domino R Package,en_5.7_api_guide_ad1224_domino-r-package.pdf
+https://docs.dominodatalab.com/en/5.7/api_guide/a5bd0c/custom-metrics-sdk/,api_guide,5.7,Custom Metrics SDK,en_5.7_api_guide_a5bd0c_custom-metrics-sdk.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/9355a5/domino-cli-reference/,user_guide,5.7,Domino CLI reference,en_5.7_user_guide_9355a5_domino-cli-reference.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/e21e55/install-the-domino-command-line-interface--cli-/,user_guide,5.7,Install the Domino Command Line Interface (CLI),en_5.7_user_guide_e21e55_install-the-domino-command-line-interface--cli-.pdf
+https://docs.dominodatalab.com/en/5.7/api_guide/d982cc/get-api-key/,api_guide,5.7,Get API Key,en_5.7_api_guide_d982cc_get-api-key.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/74f8ed/remediate-a-model-api/,user_guide,5.7,Remediate a Model API,en_5.7_user_guide_74f8ed_remediate-a-model-api.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/ac36e3/cohort-analysis/,user_guide,5.7,Cohort Analysis,en_5.7_user_guide_ac36e3_cohort-analysis.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/d4f9b7/analyze-model-quality/,user_guide,5.7,Analyze model quality,en_5.7_user_guide_d4f9b7_analyze-model-quality.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/c1dce7/set-up-cohort-analysis/,user_guide,5.7,Set up Cohort Analysis,en_5.7_user_guide_c1dce7_set-up-cohort-analysis.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/bb88ca/monitoring-config-json/,user_guide,5.7,Monitoring Config JSON,en_5.7_user_guide_bb88ca_monitoring-config-json.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/b1b1ca/set-up-cohort-analysis/,user_guide,5.7,Set up Cohort Analysis,en_5.7_user_guide_b1b1ca_set-up-cohort-analysis.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/8c7833/connect-a-data-source/,user_guide,5.7,Connect a Data Source,en_5.7_user_guide_8c7833_connect-a-data-source.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/ce3835/set-up-model-quality-monitoring/,user_guide,5.7,Set up model quality monitoring,en_5.7_user_guide_ce3835_set-up-model-quality-monitoring.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/2a7c3b/monitoring-for-model-apis/,user_guide,5.7,Monitoring for Model APIs,en_5.7_user_guide_2a7c3b_monitoring-for-model-apis.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/4da05b/set-scheduled-checks/,user_guide,5.7,Set scheduled checks,en_5.7_user_guide_4da05b_set-scheduled-checks.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/287438/set-up-notifications/,user_guide,5.7,Set up notifications,en_5.7_user_guide_287438_set-up-notifications.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/c97091/set-up-drift-detection/,user_guide,5.7,Set up drift detection,en_5.7_user_guide_c97091_set-up-drift-detection.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/679cc1/set-up-model-monitor/,user_guide,5.7,Set up Model Monitor,en_5.7_user_guide_679cc1_set-up-model-monitor.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/3851db/set-up-model-quality-monitoring/,user_guide,5.7,Set up model quality monitoring,en_5.7_user_guide_3851db_set-up-model-quality-monitoring.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/afc767/set-scheduled-checks/,user_guide,5.7,Set scheduled checks,en_5.7_user_guide_afc767_set-scheduled-checks.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/9ebe39/set-up-notifications/,user_guide,5.7,Set up notifications,en_5.7_user_guide_9ebe39_set-up-notifications.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/a94c1c/model-monitoring-apis/,user_guide,5.7,Model Monitoring APIs,en_5.7_user_guide_a94c1c_model-monitoring-apis.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/d1f8bb/register-a-model/,user_guide,5.7,Register a Model,en_5.7_user_guide_d1f8bb_register-a-model.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/be1fd2/install-packages-for-model-monitoring/,user_guide,5.7,Install packages for Model Monitoring,en_5.7_user_guide_be1fd2_install-packages-for-model-monitoring.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/86bc1f/set-up-drift-detection/,user_guide,5.7,Set up drift detection,en_5.7_user_guide_86bc1f_set-up-drift-detection.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/93e5c0/set-up-prediction-capture/,user_guide,5.7,Set up prediction capture,en_5.7_user_guide_93e5c0_set-up-prediction-capture.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/d42ae6/use-monitoring/,user_guide,5.7,Use monitoring,en_5.7_user_guide_d42ae6_use-monitoring.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/0d2247/use-git-in-your-workspace/,user_guide,5.7,Use Git in your Workspace,en_5.7_user_guide_0d2247_use-git-in-your-workspace.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/d8e27b/review-the-cohort-analysis/,user_guide,5.7,Review the Cohort Analysis,en_5.7_user_guide_d8e27b_review-the-cohort-analysis.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/6469bf/feature-flags/,admin_guide,5.7,Feature Flags,en_5.7_admin_guide_6469bf_feature-flags.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/7080da/remediation/,user_guide,5.7,Remediation,en_5.7_user_guide_7080da_remediation.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/f33b63/analyze-data-drift/,user_guide,5.7,Analyze data drift,en_5.7_user_guide_f33b63_analyze-data-drift.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/558c1d/set-up-the-feature-store/,admin_guide,5.7,Set up the feature store,en_5.7_admin_guide_558c1d_set-up-the-feature-store.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/66f1f0/test-defaults/,user_guide,5.7,Test defaults,en_5.7_user_guide_66f1f0_test-defaults.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/059b1c/feature-store/,user_guide,5.7,Feature store,en_5.7_user_guide_059b1c_feature-store.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/314004/import-git-repositories/,user_guide,5.7,Import Git repositories,en_5.7_user_guide_314004_import-git-repositories.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/eb09fa/configure-censorship/,admin_guide,5.7,Configure censorship,en_5.7_admin_guide_eb09fa_configure-censorship.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/de4abb/domino-file-system/,user_guide,5.7,Domino File System,en_5.7_user_guide_de4abb_domino-file-system.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/ca786d/domino-file-system-projects/,user_guide,5.7,Domino File System Projects,en_5.7_user_guide_ca786d_domino-file-system-projects.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/0da1e9/use-the-domino-cli-behind-a-proxy/,user_guide,5.7,Use the Domino CLI behind a proxy,en_5.7_user_guide_0da1e9_use-the-domino-cli-behind-a-proxy.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/b8a061/revert-projects-and-files/,user_guide,5.7,Revert Projects and files,en_5.7_user_guide_b8a061_revert-projects-and-files.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/3c528d/archive-a-project/,user_guide,5.7,Archive a Project,en_5.7_user_guide_3c528d_archive-a-project.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/fcd594/revert-a-project/,user_guide,5.7,Revert a Project,en_5.7_user_guide_fcd594_revert-a-project.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/029c37/revert-a-file/,user_guide,5.7,Revert a file,en_5.7_user_guide_029c37_revert-a-file.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/dae129/compare-file-revisions/,user_guide,5.7,Compare file revisions,en_5.7_user_guide_dae129_compare-file-revisions.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/c5fe4e/export-files-as-python-or-r-package/,user_guide,5.7,Export files as Python or R package,en_5.7_user_guide_c5fe4e_export-files-as-python-or-r-package.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/7a0fee/upload-files-to-domino/,user_guide,5.7,Upload files to Domino,en_5.7_user_guide_7a0fee_upload-files-to-domino.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/afea00/manage-project-files/,user_guide,5.7,Manage Project files,en_5.7_user_guide_afea00_manage-project-files.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/4a6d0f/merge-projects/,user_guide,5.7,Merge Projects,en_5.7_user_guide_4a6d0f_merge-projects.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/ef261b/fork-projects/,user_guide,5.7,Fork Projects,en_5.7_user_guide_ef261b_fork-projects.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/f86aa5/work-from-a-commit-id-in-git/,user_guide,5.7,Work from a commit ID in Git,en_5.7_user_guide_f86aa5_work-from-a-commit-id-in-git.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/d82ba3/share-and-collaborate-on-projects/,user_guide,5.7,Share and collaborate on Projects,en_5.7_user_guide_d82ba3_share-and-collaborate-on-projects.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/a834bb/organize-domino-file-system-project-assets/,user_guide,5.7,Organize Domino File System Project assets,en_5.7_user_guide_a834bb_organize-domino-file-system-project-assets.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/cb1d07/set-project-visibility/,user_guide,5.7,Set Project visibility,en_5.7_user_guide_cb1d07_set-project-visibility.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/9e95a5/customize-jobs-dashboard/,user_guide,5.7,Customize Jobs dashboard,en_5.7_user_guide_9e95a5_customize-jobs-dashboard.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/f7292e/work-with-many-files/,user_guide,5.7,Work with many files,en_5.7_user_guide_f7292e_work-with-many-files.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/bfeeae/exclude-project-files-from-sync/,user_guide,5.7,Exclude Project files from sync,en_5.7_user_guide_bfeeae_exclude-project-files-from-sync.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/dbfb7c/manage-jobs/,user_guide,5.7,Manage Jobs,en_5.7_user_guide_dbfb7c_manage-jobs.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/2e25bb/manage-and-view-jobs-with-the-jobs-dashboard/,user_guide,5.7,Manage and view Jobs with the Jobs dashboard,en_5.7_user_guide_2e25bb_manage-and-view-jobs-with-the-jobs-dashboard.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/e1c37a/monitor-job-results-for-reproducibility-and-collaboration/,user_guide,5.7,Monitor Job results for reproducibility and collaboration,en_5.7_user_guide_e1c37a_monitor-job-results-for-reproducibility-and-collaboration.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/5b332c/project-organization/,user_guide,5.7,Project organization,en_5.7_user_guide_5b332c_project-organization.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/4b6b79/feature-store-quickstart/,user_guide,5.7,Feature store quickstart,en_5.7_user_guide_4b6b79_feature-store-quickstart.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/f12554/external-data-volumes--edvs-/,user_guide,5.7,External Data Volumes (EDVs),en_5.7_user_guide_f12554_external-data-volumes--edvs-.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/b37520/discover-and-reuse-features/,user_guide,5.7,Discover and reuse features,en_5.7_user_guide_b37520_discover-and-reuse-features.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/4cdae9/set-up-kubernetes-pv-and-pvc/,admin_guide,5.7,Set up Kubernetes PV and PVC,en_5.7_admin_guide_4cdae9_set-up-kubernetes-pv-and-pvc.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/673577/scheduled-jobs/,user_guide,5.7,Scheduled Jobs,en_5.7_user_guide_673577_scheduled-jobs.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/9c3564/register-external-data-volumes/,admin_guide,5.7,Register external data volumes,en_5.7_admin_guide_9c3564_register-external-data-volumes.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/a8b4c4/deploy-your-model/,user_guide,5.7,Deploy Your Model,en_5.7_user_guide_a8b4c4_deploy-your-model.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/d003a0/get-started-with-matlab/,user_guide,5.7,Get Started with MATLAB,en_5.7_user_guide_d003a0_get-started-with-matlab.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/ac5c29/launchers/,user_guide,5.7,Launchers,en_5.7_user_guide_ac5c29_launchers.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/c3d953/working-with-datasets/,user_guide,5.7,Working with Datasets,en_5.7_user_guide_c3d953_working-with-datasets.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/b1d21e/clean-up-your-workspace/,user_guide,5.7,Clean up your Workspace,en_5.7_user_guide_b1d21e_clean-up-your-workspace.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/305721/work-with-local-data/,user_guide,5.7,Work with local data,en_5.7_user_guide_305721_work-with-local-data.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/45a2e6/fetch-and-save-your-data/,user_guide,5.7,Fetch and save your data,en_5.7_user_guide_45a2e6_fetch-and-save-your-data.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/04e21f/develop-your-model/,user_guide,5.7,Develop your model,en_5.7_user_guide_04e21f_develop-your-model.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/bfda3d/start-a-matlab-workspace/,user_guide,5.7,Start a MATLAB Workspace,en_5.7_user_guide_bfda3d_start-a-matlab-workspace.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/38fd0e/configure-your-project/,user_guide,5.7,Configure your Project,en_5.7_user_guide_38fd0e_configure-your-project.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/d00413/create-a-project/,user_guide,5.7,Create a Project,en_5.7_user_guide_d00413_create-a-project.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/62cf79/orient-yourself-to-domino/,user_guide,5.7,Orient yourself to Domino,en_5.7_user_guide_62cf79_orient-yourself-to-domino.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/f1f203/define-and-publish-features/,user_guide,5.7,Define and publish features,en_5.7_user_guide_f1f203_define-and-publish-features.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/ee8d01/add-edvs-to-projects/,user_guide,5.7,Add EDVs to Projects,en_5.7_user_guide_ee8d01_add-edvs-to-projects.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/813d89/preload-environment-packages/,user_guide,5.7,Preload Environment packages,en_5.7_user_guide_813d89_preload-environment-packages.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/acd236/resolve-merge-conflicts/,user_guide,5.7,Resolve merge conflicts,en_5.7_user_guide_acd236_resolve-merge-conflicts.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/bfa148/add-packages-to-environments/,user_guide,5.7,Add packages to Environments,en_5.7_user_guide_bfa148_add-packages-to-environments.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/7ec608/edv-security-and-sharing/,user_guide,5.7,EDV security and sharing,en_5.7_user_guide_7ec608_edv-security-and-sharing.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/eaab17/create-a-git-based-project/,user_guide,5.7,Create a Git-based Project,en_5.7_user_guide_eaab17_create-a-git-based-project.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/910370/git-based-projects/,user_guide,5.7,Git-based Projects,en_5.7_user_guide_910370_git-based-projects.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/157618/analyze-costs/,admin_guide,5.7,Analyze costs,en_5.7_admin_guide_157618_analyze-costs.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/5d0521/organize-git-based-project-assets/,user_guide,5.7,Organize Git-based Project assets,en_5.7_user_guide_5d0521_organize-git-based-project-assets.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/bc084f/set-limits-on-dataset-usage/,admin_guide,5.7,Set limits on Dataset usage,en_5.7_admin_guide_bc084f_set-limits-on-dataset-usage.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/06e4c2/budgets-and-alerts/,admin_guide,5.7,Budgets and alerts,en_5.7_admin_guide_06e4c2_budgets-and-alerts.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/ae1654/manage-domino-datasets/,admin_guide,5.7,Manage Domino Datasets,en_5.7_admin_guide_ae1654_manage-domino-datasets.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/624992/set-up-domino-finops/,admin_guide,5.7,Set up Domino FinOps,en_5.7_admin_guide_624992_set-up-domino-finops.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/6be870/delete-datasets-and-snapshots/,admin_guide,5.7,Delete Datasets and snapshots,en_5.7_admin_guide_6be870_delete-datasets-and-snapshots.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/25b6dc/cluster-requirements/,admin_guide,5.7,Cluster requirements,en_5.7_admin_guide_25b6dc_cluster-requirements.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/aaa2c1/work-with-clusters/,user_guide,5.7,Work with clusters,en_5.7_user_guide_aaa2c1_work-with-clusters.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/b5da89/domino-on-eks/,admin_guide,5.7,Domino on EKS,en_5.7_admin_guide_b5da89_domino-on-eks.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/7b2cbe/kubernetes-compatibility/,admin_guide,5.7,Kubernetes compatibility,en_5.7_admin_guide_7b2cbe_kubernetes-compatibility.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/a1b168/snowflake-queries/,user_guide,5.7,Snowflake queries,en_5.7_user_guide_a1b168_snowflake-queries.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/d9c9ff/cloud-services/,admin_guide,5.7,Cloud services,en_5.7_admin_guide_d9c9ff_cloud-services.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/5cef47/export-models-to-nvidia-fleet-command/,user_guide,5.7,Export models to NVIDIA Fleet Command,en_5.7_user_guide_5cef47_export-models-to-nvidia-fleet-command.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/6e290a/domino-on-gke/,admin_guide,5.7,Domino on GKE,en_5.7_admin_guide_6e290a_domino-on-gke.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/7d0b3e/domino-on-aks/,admin_guide,5.7,Domino on AKS,en_5.7_admin_guide_7d0b3e_domino-on-aks.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/ba503b/integrated-deployment-to-ci-cd-workflows/,user_guide,5.7,Integrated deployment to CI/CD workflows,en_5.7_user_guide_ba503b_integrated-deployment-to-ci-cd-workflows.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/5765ba/installation-overview/,admin_guide,5.7,Installation overview,en_5.7_admin_guide_5765ba_installation-overview.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/02ec6d/export-models-to-sagemaker/,user_guide,5.7,Export models to SageMaker,en_5.7_user_guide_02ec6d_export-models-to-sagemaker.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/6838b2/fleetcommand-agent-install-sh-downloads/,admin_guide,5.7,fleetcommand-agent-install.sh Downloads,en_5.7_admin_guide_6838b2_fleetcommand-agent-install-sh-downloads.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/0ccd76/install-fleetcommand-agent/,admin_guide,5.7,Install fleetcommand-agent,en_5.7_admin_guide_0ccd76_install-fleetcommand-agent.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/06822c/fleetcommand-agent-install-tool/,admin_guide,5.7,fleetcommand-agent Install Tool,en_5.7_admin_guide_06822c_fleetcommand-agent-install-tool.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/d7ca64/requirements/,admin_guide,5.7,Requirements,en_5.7_admin_guide_d7ca64_requirements.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/8fe42a/requirements/,admin_guide,5.7,Requirements,en_5.7_admin_guide_8fe42a_requirements.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/824530/fleetcommand-agent-command-reference/,admin_guide,5.7,fleetcommand-agent Command Reference,en_5.7_admin_guide_824530_fleetcommand-agent-command-reference.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/360714/run-fleetcommand-agent-commands/,admin_guide,5.7,Run fleetcommand-agent commands,en_5.7_admin_guide_360714_run-fleetcommand-agent-commands.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/57924f/upgrade-fleetcommand-agent/,admin_guide,5.7,Upgrade fleetcommand-agent,en_5.7_admin_guide_57924f_upgrade-fleetcommand-agent.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/eb57d2/streamlined-domino-yaml-downloads/,admin_guide,5.7,Streamlined domino.yaml downloads,en_5.7_admin_guide_eb57d2_streamlined-domino-yaml-downloads.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/ad1062/upgrade-domino/,admin_guide,5.7,Upgrade Domino,en_5.7_admin_guide_ad1062_upgrade-domino.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/0fa80e/user-acceptance-testing/,admin_guide,5.7,User acceptance testing,en_5.7_admin_guide_0fa80e_user-acceptance-testing.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/06c620/deployments-telemetry/,admin_guide,5.7,Deployments telemetry,en_5.7_admin_guide_06c620_deployments-telemetry.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/9453b6/view-workspace-history/,user_guide,5.7,View Workspace history,en_5.7_user_guide_9453b6_view-workspace-history.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/d5800f/view-workspace-usage/,user_guide,5.7,View Workspace usage,en_5.7_user_guide_d5800f_view-workspace-usage.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/02d166/resume-a-workspace/,user_guide,5.7,Resume a Workspace,en_5.7_user_guide_02d166_resume-a-workspace.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/e92082/publish-a-shiny-app/,user_guide,5.7,Publish a Shiny App,en_5.7_user_guide_e92082_publish-a-shiny-app.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/2039f2/publish-a-flask-app/,user_guide,5.7,Publish a Flask App,en_5.7_user_guide_2039f2_publish-a-flask-app.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/c5ce58/get-started-with-r/,user_guide,5.7,Get started with R,en_5.7_user_guide_c5ce58_get-started-with-r.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/0ea71e/change-the-workspace-volume-size/,user_guide,5.7,Change the Workspace volume size,en_5.7_user_guide_0ea71e_change-the-workspace-volume-size.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/731fd1/deploy-your-model/,user_guide,5.7,Deploy your model,en_5.7_user_guide_731fd1_deploy-your-model.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/a86443/workspace-settings/,user_guide,5.7,Workspace settings,en_5.7_user_guide_a86443_workspace-settings.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/118efa/clean-up-workspaces/,user_guide,5.7,Clean up Workspaces,en_5.7_user_guide_118efa_clean-up-workspaces.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/815d95/configure-long-running-workspaces/,user_guide,5.7,Configure long-running Workspaces,en_5.7_user_guide_815d95_configure-long-running-workspaces.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/21bde1/edit-workspace-settings/,user_guide,5.7,Edit Workspace settings,en_5.7_user_guide_21bde1_edit-workspace-settings.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/d8138c/develop-your-model/,user_guide,5.7,Develop your model,en_5.7_user_guide_d8138c_develop-your-model.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/a177dd/get-your-files-and-data/,user_guide,5.7,Get your files and data,en_5.7_user_guide_a177dd_get-your-files-and-data.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/9b7b29/configure-your-project/,user_guide,5.7,Configure your Project,en_5.7_user_guide_9b7b29_configure-your-project.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/ccba8f/create-a-project/,user_guide,5.7,Create a Project,en_5.7_user_guide_ccba8f_create-a-project.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/90bd70/orient-yourself-to-domino/,user_guide,5.7,Orient yourself to Domino,en_5.7_user_guide_90bd70_orient-yourself-to-domino.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/d6c084/commit-and-push-changes-to-your-git-repository/,user_guide,5.7,Commit and push changes to your Git repository,en_5.7_user_guide_d6c084_commit-and-push-changes-to-your-git-repository.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/164503/view-workspace-logs/,user_guide,5.7,View Workspace logs,en_5.7_user_guide_164503_view-workspace-logs.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/a9e507/application-execution-logs/,admin_guide,5.7,Application execution logs,en_5.7_admin_guide_a9e507_application-execution-logs.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/b51a09/resolve-conflicts-manually/,user_guide,5.7,Resolve conflicts manually,en_5.7_user_guide_b51a09_resolve-conflicts-manually.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/12e54b/support-bundles/,admin_guide,5.7,Support Bundles,en_5.7_admin_guide_12e54b_support-bundles.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/27e04d/resolve-merge-conflicts/,user_guide,5.7,Resolve merge conflicts,en_5.7_user_guide_27e04d_resolve-merge-conflicts.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/373d37/manage-project-file-storage/,admin_guide,5.7,Manage Project file storage,en_5.7_admin_guide_373d37_manage-project-file-storage.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/48cc4e/change-branches-in-the-workspace/,user_guide,5.7,Change branches in the Workspace,en_5.7_user_guide_48cc4e_change-branches-in-the-workspace.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/26c944/delete-file-instances/,admin_guide,5.7,Delete file instances,en_5.7_admin_guide_26c944_delete-file-instances.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/6942ab/use-datasets-and-snapshots/,user_guide,5.7,Use Datasets and Snapshots,en_5.7_user_guide_6942ab_use-datasets-and-snapshots.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/fbb1db/open-a-vs-code-workspace/,user_guide,5.7,Open a VS Code Workspace,en_5.7_user_guide_fbb1db_open-a-vs-code-workspace.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/064d93/start-a-workspace/,user_guide,5.7,Start a Workspace,en_5.7_user_guide_064d93_start-a-workspace.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/2c01ae/run-multiple-applications-in-a-workspace/,user_guide,5.7,Run multiple applications in a Workspace,en_5.7_user_guide_2c01ae_run-multiple-applications-in-a-workspace.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/13a1a4/view-the-status-of-all-projects/,admin_guide,5.7,View the status of all Projects,en_5.7_admin_guide_13a1a4_view-the-status-of-all-projects.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/06ceeb/add-comments/,user_guide,5.7,Add comments,en_5.7_user_guide_06ceeb_add-comments.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/0002fb/view-workspaces/,user_guide,5.7,View Workspaces,en_5.7_user_guide_0002fb_view-workspaces.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/7bb387/view-platform-and-compute-nodes-details/,admin_guide,5.7,View platform and compute nodes details,en_5.7_admin_guide_7bb387_view-platform-and-compute-nodes-details.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/eb97ae/view-active-executions/,admin_guide,5.7,View active executions,en_5.7_admin_guide_eb97ae_view-active-executions.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/450d66/fleetcommand-cli-reference/,admin_guide,5.7,Fleetcommand CLI reference,en_5.7_admin_guide_450d66_fleetcommand-cli-reference.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/2722ce/run-a-manual--on-demand-backup/,admin_guide,5.7,"Run a manual, on-demand backup",en_5.7_admin_guide_2722ce_run-a-manual--on-demand-backup.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/b7341e/install-with-token-and-fleetcommand-cli/,admin_guide,5.7,Install with Token and Fleetcommand CLI,en_5.7_admin_guide_b7341e_install-with-token-and-fleetcommand-cli.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/c35738/backup-location/,admin_guide,5.7,Backup location,en_5.7_admin_guide_c35738_backup-location.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/a3ed46/size-the-domino-platform/,admin_guide,5.7,Size the Domino Platform,en_5.7_admin_guide_a3ed46_size-the-domino-platform.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/33c18d/standard-domino-platform/,admin_guide,5.7,Standard Domino Platform,en_5.7_admin_guide_33c18d_standard-domino-platform.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/2941b1/size-the-infrastructure/,admin_guide,5.7,Size the Infrastructure,en_5.7_admin_guide_2941b1_size-the-infrastructure.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/87b601/private-or-offline-installation/,admin_guide,5.7,Private or offline installation,en_5.7_admin_guide_87b601_private-or-offline-installation.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/e96f4c/google-cloud-platform--gcp--deployments/,admin_guide,5.7,Google Cloud Platform (GCP) deployments,en_5.7_admin_guide_e96f4c_google-cloud-platform--gcp--deployments.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/cc299e/project-assets/,user_guide,5.7,Project assets,en_5.7_user_guide_cc299e_project-assets.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/b6b37d/kubernetes-upgrade-guide/,admin_guide,5.7,Kubernetes upgrade guide,en_5.7_admin_guide_b6b37d_kubernetes-upgrade-guide.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/d108fc/deploy-domino/,admin_guide,5.7,Deploy Domino,en_5.7_admin_guide_d108fc_deploy-domino.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/cca053/provision-infrastructure-and-runtime-environment/,admin_guide,5.7,Provision infrastructure and runtime Environment,en_5.7_admin_guide_cca053_provision-infrastructure-and-runtime-environment.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/9de45f/prepare-to-install/,admin_guide,5.7,Prepare to install,en_5.7_admin_guide_9de45f_prepare-to-install.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/bb7224/gcp-deployment-architecture/,admin_guide,5.7,GCP deployment architecture,en_5.7_admin_guide_bb7224_gcp-deployment-architecture.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/f200d6/connect-to-impala/,user_guide,5.7,Connect to Impala,en_5.7_user_guide_f200d6_connect-to-impala.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/452cff/connect-to-datarobot/,user_guide,5.7,Connect to DataRobot,en_5.7_user_guide_452cff_connect-to-datarobot.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/22474d/connect-to-starburst-trino/,user_guide,5.7,Connect to Starburst/Trino,en_5.7_user_guide_22474d_connect-to-starburst-trino.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/4c1129/connect-to-teradata/,user_guide,5.7,Connect to Teradata,en_5.7_user_guide_4c1129_connect-to-teradata.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/ccd264/connect-to-palantir-foundry/,user_guide,5.7,Connect to Palantir Foundry,en_5.7_user_guide_ccd264_connect-to-palantir-foundry.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/0fc615/connect-to-teradata/,admin_guide,5.7,Connect to Teradata,en_5.7_admin_guide_0fc615_connect-to-teradata.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/a932d7/connect-to-palantir-foundry/,admin_guide,5.7,Connect to Palantir Foundry,en_5.7_admin_guide_a932d7_connect-to-palantir-foundry.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/cadeb5/connect-to-mongodb/,user_guide,5.7,Connect to MongoDB,en_5.7_user_guide_cadeb5_connect-to-mongodb.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/a6daac/connect-to-bigquery/,user_guide,5.7,Connect to BigQuery,en_5.7_user_guide_a6daac_connect-to-bigquery.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/ed290d/connect-to-mongodb/,admin_guide,5.7,Connect to MongoDB,en_5.7_admin_guide_ed290d_connect-to-mongodb.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/37a0a6/connect-to-amazon-s3-tabular-with-aws-glue/,user_guide,5.7,Connect to Amazon S3 Tabular with AWS Glue,en_5.7_user_guide_37a0a6_connect-to-amazon-s3-tabular-with-aws-glue.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/c65074/nexus-hybrid-architecture/,admin_guide,5.7,Nexus Hybrid Architecture,en_5.7_admin_guide_c65074_nexus-hybrid-architecture.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/72362d/connect-to-tabular-s3-with-aws-glue/,admin_guide,5.7,Connect to Tabular S3 with AWS Glue,en_5.7_admin_guide_72362d_connect-to-tabular-s3-with-aws-glue.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/98ad4f/control-plane-security-guidance/,admin_guide,5.7,Control plane security guidance,en_5.7_admin_guide_98ad4f_control-plane-security-guidance.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/491fe8/enable-a-data-plane-for-workspaces/,admin_guide,5.7,Enable a Data Plane for Workspaces,en_5.7_admin_guide_491fe8_enable-a-data-plane-for-workspaces.pdf
+https://docs.dominodatalab.com/en/5.7/api_guide/9edb62/custom-authentication/,api_guide,5.7,Custom authentication,en_5.7_api_guide_9edb62_custom-authentication.pdf
+https://docs.dominodatalab.com/en/5.7/api_guide/5267b0/install-the-data-api/,api_guide,5.7,Install the Data API,en_5.7_api_guide_5267b0_install-the-data-api.pdf
+https://docs.dominodatalab.com/en/5.7/api_guide/d49ab1/data-source-use-cases/,api_guide,5.7,Data Source Use Cases,en_5.7_api_guide_d49ab1_data-source-use-cases.pdf
+https://docs.dominodatalab.com/en/5.7/api_guide/490a1c/authentication/,api_guide,5.7,Authentication,en_5.7_api_guide_490a1c_authentication.pdf
+https://docs.dominodatalab.com/en/5.7/api_guide/e5761b/configuration-override/,api_guide,5.7,Configuration override,en_5.7_api_guide_e5761b_configuration-override.pdf
+https://docs.dominodatalab.com/en/5.7/api_guide/50ffa7/write-to-a-local-file/,api_guide,5.7,Write to a local file,en_5.7_api_guide_50ffa7_write-to-a-local-file.pdf
+https://docs.dominodatalab.com/en/5.7/api_guide/20d551/read-write-to-an-object-store/,api_guide,5.7,Read/Write to an object store,en_5.7_api_guide_20d551_read-write-to-an-object-store.pdf
+https://docs.dominodatalab.com/en/5.7/api_guide/40ee54/query-a-tabular-store/,api_guide,5.7,Query a tabular store,en_5.7_api_guide_40ee54_query-a-tabular-store.pdf
+https://docs.dominodatalab.com/en/5.7/api_guide/140b48/domino-data-api/,api_guide,5.7,Domino Data API,en_5.7_api_guide_140b48_domino-data-api.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/df7044/data-security-and-sharing/,user_guide,5.7,Data security and sharing,en_5.7_user_guide_df7044_data-security-and-sharing.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/5358c8/access-external-data/,user_guide,5.7,Access external data,en_5.7_user_guide_5358c8_access-external-data.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/8f5b7e/dataset-sharing-and-security/,user_guide,5.7,Dataset sharing and security,en_5.7_user_guide_8f5b7e_dataset-sharing-and-security.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/3d3103/access-external-data-directly/,user_guide,5.7,Access external data directly,en_5.7_user_guide_3d3103_access-external-data-directly.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/9b43ee/ldap---ad-federation/,admin_guide,5.7,LDAP / AD federation,en_5.7_admin_guide_9b43ee_ldap---ad-federation.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/c5ca24/create-domino-cloud-users/,admin_guide,5.7,Create Domino Cloud users,en_5.7_admin_guide_c5ca24_create-domino-cloud-users.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/852449/customize-the-results-dashboard/,user_guide,5.7,Customize the results dashboard,en_5.7_user_guide_852449_customize-the-results-dashboard.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/31abd5/download-execution-results/,user_guide,5.7,Download execution results,en_5.7_user_guide_31abd5_download-execution-results.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/2611b7/roles/,admin_guide,5.7,Roles,en_5.7_admin_guide_2611b7_roles.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/908bd9/hardware-tier-best-practices/,admin_guide,5.7,Hardware tier best practices,en_5.7_admin_guide_908bd9_hardware-tier-best-practices.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/dbdbff/version-data-with-snapshots/,user_guide,5.7,Version data with Snapshots,en_5.7_user_guide_dbdbff_version-data-with-snapshots.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/9d16e5/create-a-hardware-tier/,admin_guide,5.7,Create a hardware tier,en_5.7_admin_guide_9d16e5_create-a-hardware-tier.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/48afc2/data-analyst-role/,admin_guide,5.7,Data Analyst role,en_5.7_admin_guide_48afc2_data-analyst-role.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/ba5bad/manage-data-in-domino-datasets/,user_guide,5.7,Manage data in Domino Datasets,en_5.7_user_guide_ba5bad_manage-data-in-domino-datasets.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/bb077c/change-the-default-project-for-new-users/,admin_guide,5.7,Change the default Project for new users,en_5.7_admin_guide_bb077c_change-the-default-project-for-new-users.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/4dc322/dataset-upgrade-prior-to-4-5/,admin_guide,5.7,Dataset upgrade prior to 4.5,en_5.7_admin_guide_4dc322_dataset-upgrade-prior-to-4-5.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/386451/notification-channels/,user_guide,5.7,Notification channels,en_5.7_user_guide_386451_notification-channels.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/b889e6/event-notifications/,user_guide,5.7,Event notifications,en_5.7_user_guide_b889e6_event-notifications.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/4f5b2a/set-up-multiple-storage-accounts/,admin_guide,5.7,Set up multiple storage accounts,en_5.7_admin_guide_4f5b2a_set-up-multiple-storage-accounts.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/e4748e/notifications/,user_guide,5.7,Notifications,en_5.7_user_guide_e4748e_notifications.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/bfd8e5/asynchronous-model-apis-capacity-planning/,admin_guide,5.7,Asynchronous Model APIs capacity planning,en_5.7_admin_guide_bfd8e5_asynchronous-model-apis-capacity-planning.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/db2820/set-notifications-for-long-running-jobs-and-workspaces/,user_guide,5.7,Set notifications for long-running Jobs and Workspaces,en_5.7_user_guide_db2820_set-notifications-for-long-running-jobs-and-workspaces.pdf
+https://docs.dominodatalab.com/en/5.7/admin_guide/9dece2/scale-python-model-apis/,admin_guide,5.7,Scale Python Model APIs,en_5.7_admin_guide_9dece2_scale-python-model-apis.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/ae32e7/set-notification-preferences/,user_guide,5.7,Set notification preferences,en_5.7_user_guide_ae32e7_set-notification-preferences.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/634c13/connect-to-mssql/,user_guide,5.7,Connect to MSSQL,en_5.7_user_guide_634c13_connect-to-mssql.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/3ae0a8/execution-notifications/,user_guide,5.7,Execution notifications,en_5.7_user_guide_3ae0a8_execution-notifications.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/d4ef2b/connect-to-snowflake/,user_guide,5.7,Connect to Snowflake,en_5.7_user_guide_d4ef2b_connect-to-snowflake.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/947ddd/connect-to-generic-s3/,user_guide,5.7,Connect to Generic S3,en_5.7_user_guide_947ddd_connect-to-generic-s3.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/444abc/connect-to-redshift/,user_guide,5.7,Connect to Redshift,en_5.7_user_guide_444abc_connect-to-redshift.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/f095e7/connect-to-postgresql/,user_guide,5.7,Connect to PostgreSQL,en_5.7_user_guide_f095e7_connect-to-postgresql.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/77bf79/connect-to-oracle-database/,user_guide,5.7,Connect to Oracle Database,en_5.7_user_guide_77bf79_connect-to-oracle-database.pdf
+https://docs.dominodatalab.com/en/5.7/user_guide/95d78a/connect-to-google-cloud-storage/,user_guide,5.7,Connect to Google Cloud Storage,en_5.7_user_guide_95d78a_connect-to-google-cloud-storage.pdf
