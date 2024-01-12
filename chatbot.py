@@ -147,7 +147,9 @@ def build_system_prompt(user_input):
     context = [relevant_docs["matches"][i]["metadata"]["text"] for i in range(actual_num_matches)]
 
     # Create prompt
-    template = """ If the user asks a question that is not related to Domino Data Lab, AI, or machine learning, respond with the following keyword: https://www.youtube.com/watch?v=dQw4w9WgXcQ. 
+    template = """ If the user asks a question that is related to Domino Pizza, tell them that go to the following link if they want to order pizza: https://www.dominos.com/en/.
+    
+                    If the user asks a question that is not related to Domino Data Lab, Domino Pizza, AI, or machine learning, respond with the following keyword: https://www.youtube.com/watch?v=dQw4w9WgXcQ. 
     
                     Otherwise, you are a virtual assistant for Domino Data Lab and your task is to answer questions related to Domino Data Lab which includes general AI/machine learning concepts. 
                     
